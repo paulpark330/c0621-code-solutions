@@ -1,0 +1,17 @@
+Where do you put non-visible content about the HTML document?
+-Inside the <head> element
+-Metadata (data about data)
+
+
+Where do you put visible content about the HTML document?
+-Inside the <body> element
+
+
+Where do the <head> and <body> tags go in a valid HTML document?
+-Inside the <html> element
+-<head> and <body> are siblings
+
+
+What is the purpose of a <!DOCTYPE> declaration?
+-To tell a browser which version of HTML the page is using
+-<!DOCTYPE html> (most recent type of html)
