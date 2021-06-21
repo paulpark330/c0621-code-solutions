@@ -1,0 +1,16 @@
+Give five examples of HTML element tags.
+-<head>
+-<body>
+-<p>
+-<h1>
+-<div>
+
+
+What is the purpose of HTML attributes?
+-Attributes provide additional information about the contents of an element
+
+
+Give an example of an HTML entity (escape character).
+-Less-than sign &lt;
+-Copyright symbol &copy;
+-Registered trademark &reg;
