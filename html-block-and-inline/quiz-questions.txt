@@ -1,0 +1,13 @@
+How do block-level elements affect the document flow?
+-Block level elements will always appear to start on a new line in the browser window
+
+
+How do inline elements affect the document flow?
+-Inline elements will always appear to continue on the same line as their neighbouring elements
+
+
+What are the default width and height of a block-level element?
+
+
+
+What are the default width and height of an inline element?
