@@ -8,7 +8,11 @@ How do inline elements affect the document flow?
 
 What are the default width and height of a block-level element?
 -A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)
+-width: 100%
+-height: auto
 
 
-What are the default width and height of an inline element?\
+What are the default width and height of an inline element?
 -An inline element does not start on a new line and only takes up as much width as necessary
+-width: auto
+-height: auto
