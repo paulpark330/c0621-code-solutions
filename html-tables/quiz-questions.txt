@@ -1,0 +1,16 @@
+What are the six primary HTML elements for creating tables?
+-table element
+-tr element
+-td element
+-th element
+
+
+What purpose do thead and tbody elements serve?
+-Distinguish between the main content of the table and the first row
+-Help people who use screen readers
+-Allow you to style these sections in a different manner using CSS
+
+
+Give two examples of data that would blend itself well to being displayed in a table.
+-Income statement
+-Calendar schedule
