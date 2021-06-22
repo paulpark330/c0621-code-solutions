@@ -3,11 +3,11 @@ What is the purpose of an HTML form element?
 
 
 Give five examples of form control elements.
--Text input
--Password input
--Text area
--Radio button
--Checkbox
+-input element
+-textarea element
+-select element
+-option element
+-button element
 
 
 Give three examples of type attributes for HTML <input> elements.
