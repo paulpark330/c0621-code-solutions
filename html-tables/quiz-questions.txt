@@ -3,6 +3,8 @@ What are the six primary HTML elements for creating tables?
 -tr element
 -td element
 -th element
+-thead element
+-tbody element
 
 
 What purpose do thead and tbody elements serve?
