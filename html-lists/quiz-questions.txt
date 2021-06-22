@@ -1,2 +1,6 @@
 What is the difference between an ordered list and an unordered list in HTML?
+-ordered list is a list where each item in the list in numbered and unordered list is a list that begin with a bullet point
+
+
 Is an HTML list a block element or an inline element?
+-block element
