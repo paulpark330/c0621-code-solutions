@@ -1,0 +1,14 @@
+How do you indicate the relative link to a parent directory?
+-Use ../ to indicate the folder above the current one, then follow it with the file name
+
+
+How do you indicate the relative link to a child directory?
+-Use the name of the child folder, followed by a forward slash, then the file name
+
+
+How do you indicate the relative link to a grand parent directory?
+-Repeat the ../ to indicate that you want to go up two folders, then follow it with the file name
+
+
+How do you indicate the relative link to the same directory?
+-Just use the file name
