@@ -1,0 +1,20 @@
+What is the purpose of an HTML form element?
+-Form element allows you to collect information from visitors to your site
+
+
+Give five examples of form control elements.
+-Text input
+-Password input
+-Text area
+-Radio button
+-Checkbox
+
+
+Give three examples of type attributes for HTML <input> elements.
+-type="text"
+-type="checkbox"
+-type="radio"
+
+
+Is an HTML <input> element a block element or an inline element?
+-Inline element
