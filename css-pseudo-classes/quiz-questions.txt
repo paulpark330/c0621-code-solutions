@@ -1,0 +1,6 @@
+What is a pseudo-class?
+-Keyword added to a selector that specifies a special state of the selected
+
+
+What are CSS pseudo-classes useful for?
+-Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors
