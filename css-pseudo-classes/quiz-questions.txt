@@ -1,0 +1,5 @@
+What is a pseudo-class?
+
+
+What are CSS pseudo-classes useful for?
+
