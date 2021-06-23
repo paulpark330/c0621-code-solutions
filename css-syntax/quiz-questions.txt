@@ -1,0 +1,11 @@
+What are the names of the individual pieces of a CSS rule?
+-CSS rule contains two parts: a selector and a declaration
+
+In CSS, how do you select elements by their class attribute?
+-Value that matches the one specified after the period symbol
+
+In CSS, how do you select elements by their type?
+-Matches element names
+
+In CSS, how do you select an element by its id attribute?
+-Value that matches the one specified after the pound symbol
