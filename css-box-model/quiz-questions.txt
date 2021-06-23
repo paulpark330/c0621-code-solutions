@@ -1,0 +1,10 @@
+What CSS properties make up the box model?
+-Border, margin, and padding
+
+
+Which CSS property pushes boxes away from each other?
+-Margin
+
+
+Which CSS property add space between a box's content and its border?
+-Padding
