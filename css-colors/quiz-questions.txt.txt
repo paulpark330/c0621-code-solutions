@@ -1,0 +1,4 @@
+Name three different types of values you can use to specify colors in CSS.
+-RGB values
+-Hex codes
+-Color names
