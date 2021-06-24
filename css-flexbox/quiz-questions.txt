@@ -1,0 +1,6 @@
+What is the default flex-direction of a flex container?
+-row
+
+
+What is the default flex-wrap of a flex container?
+-nowrap: all flex items will be on one line
