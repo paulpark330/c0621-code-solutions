@@ -24,24 +24,24 @@ label {
 }
 
 input {
+  font-family: "AtlasGrotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
   height: 36px;
   width: 370px;
   border: 1px solid #a6aaa9;
   border-radius: 5px;
-  font-family: "AtlasGrotesk", sans-serif;
-  font-size: 12px;
-  font-weight: 500;
   padding-left: 14px;
 }
 
 select {
-  margin: auto;
+  font-family: "Brandon Grotesque", sans-serif;
+  background-color: #f3f3f3;
   height: 35px;
   width: 370px;
+  margin: auto;
   border: 1px solid #a6aaa9;
   border-radius: 5px;
-  background-color: #f3f3f3;
-  font-family: "Brandon Grotesque", sans-serif;
 }
 
 form > div {
@@ -57,15 +57,15 @@ div > div {
 }
 
 #button {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
   color: white;
   background-color: #ec5d57;
   border: none;
   border-radius: 20px;
   padding: 5px 18px;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: "Brandon Grotesque", sans-serif;
-  font-weight: 500;
 }
 
 .push-right {
