@@ -1,0 +1,2 @@
+What is the default flex-direction of a flex container?
+What is the default flex-wrap of a flex container?
