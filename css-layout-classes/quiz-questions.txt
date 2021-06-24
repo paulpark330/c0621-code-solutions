@@ -1,0 +1,2 @@
+Why do two div elements "vertically stack" on one another by default?
+What is the default flex-direction of an element with display: flex?
