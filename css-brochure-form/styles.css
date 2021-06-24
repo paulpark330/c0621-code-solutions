@@ -1,42 +1,56 @@
-h1 {
-  margin: auto;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Brandon Grotesque", sans-serif;
-  font-weight: 500;
-  color: #ec5d57;
-  font-size: 20px;
-  letter-spacing: 1.5px;
+body {
+  max-width: 370px;
+  margin: 0 auto;
 }
 
-div > input {
-  height: 30px;
-  width: 350px;
-  border: 1.5px solid lightgray;
+h1 {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ec5d57;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 13.5px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+input {
+  height: 36px;
+  width: 370px;
+  border: 1px solid #a6aaa9;
   border-radius: 5px;
 }
 
-div > select {
+select {
   margin: auto;
-  height: 30px;
-  width: 350px;
-  border: 1.5px solid lightgray;
+  height: 35px;
+  width: 370px;
+  border: 1px solid #a6aaa9;
   border-radius: 5px;
   background-color: #f3f3f3;
   font-family: "Brandon Grotesque", sans-serif;
 }
 
-div > label {
-  font-family: "Brandon Grotesque", sans-serif;
-  font-size: 10px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-left: 10px;
+form > div {
   margin-bottom: 10px;
 }
 
-.align-center {
-  margin: auto;
+div > div {
+  margin-bottom: 2px;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
 }
 
 #button {
@@ -54,8 +68,8 @@ div > label {
 
 ::placeholder {
   font-family: "AtlasGrotesk", sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
-  color: lightgray;
-  padding-left: 5px;
+  color: #a6aaa9;
+  padding-left: 7px;
 }

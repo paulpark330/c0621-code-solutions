@@ -16,55 +16,70 @@
     <body>
       <form>
         <!-- ////////////////////EMAIL//////////////////// -->
-        <div class="input">
-          <label for="email">Company Email</label>
-          <br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="sally@company.co"
-            required
-          />
+        <div>
+          <div>
+            <label for="email">Company Email</label>
+          </div>
+          <div>
+            <input
+              type="email"
+              id="email-input"
+              name="email"
+              placeholder="sally@company.co"
+              required
+            />
+          </div>
         </div>
         <!-- ////////////////////NAME//////////////////// -->
-        <div class="input">
-          <label for="name">Name</label>
-          <br />
-          <input
-            type="name"
-            id="name"
-            name="name"
-            placeholder="Sally Smith"
-            required
-          />
+        <div>
+          <div>
+            <label for="name">Name</label>
+          </div>
+          <div>
+            <input
+              class="justify-center"
+              type="name"
+              id="name-input"
+              name="name"
+              placeholder="Sally Smith"
+              required
+            />
+          </div>
         </div>
         <!-- ////////////////////LOCATION//////////////////// -->
-        <div class="input">
-          <label for="location">Where are you hiring?</label>
-          <br />
-          <input
-            type="location"
-            id="location"
-            name="location"
-            placeholder="City, Country"
-            required
-          />
+        <div>
+          <div>
+            <label for="location">Where are you hiring?</label>
+          </div>
+          <div>
+            <input
+              class="justify-center"
+              type="location"
+              id="location-input"
+              name="location"
+              placeholder="City, Country"
+              required
+            />
+          </div>
         </div>
         <!-- //////////////DROP DOWN LIST BOX////////////// -->
-        <div class="input">
+        <div>
           <label for="numOfEngineers"
             >How many engineers are you hiring in the next 6 months?</label
           >
-          <br />
-          <select name="numOfEngineers" id="numOfEngineers" required>
+          <select
+            class="justify-center"
+            name="numOfEngineers"
+            id="numOfEngineers-select"
+            required
+          >
             <option value="1-2">1-2 Engineers</option>
             <option value="3-4">3-4 Engineers</option>
             <option value="5-6">5-6 Engineers</option>
             <option value="7-8">7-8 Engineers</option>
           </select>
         </div>
-        <input id="button" type="submit" />
+        <button id="button">Submit</button>
       </form>
     </body>
   </body>
