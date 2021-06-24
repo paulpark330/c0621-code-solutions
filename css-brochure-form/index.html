@@ -13,7 +13,7 @@
     <header>
       <h1>Learn More</h1>
     </header>
-    <body>
+    <main>
       <form>
         <!-- ////////////////////EMAIL//////////////////// -->
         <div>
@@ -37,7 +37,6 @@
           </div>
           <div>
             <input
-              class="justify-center"
               type="name"
               id="name-input"
               name="name"
@@ -53,7 +52,6 @@
           </div>
           <div>
             <input
-              class="justify-center"
               type="location"
               id="location-input"
               name="location"
@@ -67,20 +65,18 @@
           <label for="numOfEngineers"
             >How many engineers are you hiring in the next 6 months?</label
           >
-          <select
-            class="justify-center"
-            name="numOfEngineers"
-            id="numOfEngineers-select"
-            required
-          >
+          <select name="numOfEngineers" id="numOfEngineers-select" required>
             <option value="1-2">1-2 Engineers</option>
             <option value="3-4">3-4 Engineers</option>
             <option value="5-6">5-6 Engineers</option>
             <option value="7-8">7-8 Engineers</option>
           </select>
         </div>
-        <button id="button">Submit</button>
+        <!-- ///////////////////BUTTON/////////////////// -->
+        <div>
+          <button class="push-right" id="button">Submit</button>
+        </div>
       </form>
-    </body>
+    </main>
   </body>
 </html>
