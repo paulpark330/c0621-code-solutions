@@ -68,5 +68,7 @@ div > div {
   padding: 5px 18px;
 }
 
-.push-right {
-  margin-left: 291px;
+.justify-right {
+  display: flex;
+  justify-content: flex-end;
+}
