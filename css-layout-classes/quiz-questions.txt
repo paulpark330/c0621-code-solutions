@@ -1,0 +1,5 @@
+Why do two div elements "vertically stack" on one another by default?
+-div element is a block-level element so it will take up full width available
+
+What is the default flex-direction of an element with display: flex?
+-row
