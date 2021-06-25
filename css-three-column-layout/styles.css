@@ -1,8 +1,8 @@
 * {
   font-family: "Lato", sans-serif;
-  color: white;
-  background-color: rgb(21, 157, 236);
   font-weight: normal;
+  color: white;
+  background-color: #1996da;
 }
 
 .container {
@@ -15,7 +15,6 @@
 
 .row {
   display: flex;
-  justify-content: center;
 }
 
 .column-full {
@@ -26,20 +25,32 @@
 .column-one-third {
   margin: 6px;
   flex-basis: calc(100% / 3);
-  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 img {
-  width: 20%;
+  width: 100%;
   background-color: white;
 }
 
 .symbol {
-  background-color: white;
   padding: 20px;
   border-radius: 50%;
+  width: 40%;
+  background-color: white;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 p {
   font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: auto;
 }
