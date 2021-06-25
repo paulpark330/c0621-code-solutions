@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.col-half {
+  flex-basis: 50%;
+}
+
+header {
+  max-width: 420px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+h1 {
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+p {
+  font-size: 10px;
+}
