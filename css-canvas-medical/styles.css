@@ -51,11 +51,16 @@ nav > span:not(:last-child) {
   border-radius: 5px;
 }
 
+.hero-container {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ececec;
+}
+
 .hero-image {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(images/hero.jpg);
-  height: 32rem;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3rem;
@@ -64,7 +69,7 @@ nav > span:not(:last-child) {
 
 .hero-heading {
   color: white;
-  width: 30rem;
+  width: 50%;
   margin-bottom: 0;
 }
 
@@ -73,7 +78,7 @@ nav > span:not(:last-child) {
   font-weight: 500;
   font-size: 0.8rem;
   color: white;
-  width: 40em;
+  width: 50%;
   line-height: 2rem;
   margin-bottom: 2rem;
 }
@@ -81,6 +86,7 @@ nav > span:not(:last-child) {
 .get-started {
   display: inline-block;
   font-family: "Avenir", sans-serif;
+  font-size: 1.4rem;
   font-weight: 500;
   color: white;
   background-color: #294464;
@@ -90,10 +96,9 @@ nav > span:not(:last-child) {
 
 .mid-section {
   background-color: #fafafa;
-  margin: 4rem 0 4rem 0;
-
-  /* border: 1px solid black; */
+  margin: 3rem 0 3rem 0;
   color: #6e6e6e;
+  /* border: 1px solid black; */
 }
 
 .section h2 {
@@ -116,7 +121,7 @@ nav > span:not(:last-child) {
 .city p {
   font-family: "Avenir", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   color: #6e6e6e;
   margin: 1rem auto 1rem auto;
@@ -157,7 +162,7 @@ nav > span:not(:last-child) {
 h1 {
   font-family: "Tiempos Headline", sans-serif;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 3rem;
 
   /* border: 1px solid black; */
 }
@@ -184,11 +189,13 @@ h1 {
 
 .foot-nav {
   display: flex;
-  padding: 3rem 4rem;
+  padding: 3rem 0rem 3rem 4rem;
+  justify-content: space-between;
 }
 
-li {
-  list-style-type: none;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 #company-product {
@@ -221,6 +228,18 @@ li {
 
 .col-half {
   flex-basis: 50%;
+
+  /* border: 1px solid black; */
+}
+
+.col-half {
+  flex-basis: 50%;
+
+  /* border: 1px solid black; */
+}
+
+.col-fourth {
+  flex-basis: 25%;
 
   /* border: 1px solid black; */
 }
