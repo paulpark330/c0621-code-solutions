@@ -1,6 +1,23 @@
 What are arrays used for?
+-Storing list of values that are related to each other
+
+
 Describe array literal notation.
+-Values are assigned to the array inside a pair of square brackets
+-Each value is separated by a comma
+
+
 How are arrays different from "plain" objects?
+-Arrays create and store lists of data in single variable while objects represent a variable with properties
+
+
 What number represents the first index of an array?
+-[0]
+
+
 What is the length property of an array?
+-Holds the number of items in the array
+
+
 How do you calculate the last index of an array?
+-Subtract 1 from the value of the length property of an array
