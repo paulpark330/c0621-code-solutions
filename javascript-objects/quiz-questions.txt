@@ -1,5 +1,21 @@
 What are objects used for?
+-Objects group together a set of variables and functions
+
+
 What are object properties?
+-Variables that are part of an object
+
+
 Describe object literal notation.
+-Object is the curly braces and their contents
+-Separate each key from its value using a colon
+-Separate each property and method with a comma (not afte the last value)
+
+
 How do you remove a property from an object?
+-delete object.property
+-delete object['property']
+
+
 What are the two ways to get or update the value of a property?
+-dot notation or square bracket syntax
