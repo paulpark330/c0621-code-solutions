@@ -1,0 +1,6 @@
+What are arrays used for?
+Describe array literal notation.
+How are arrays different from "plain" objects?
+What number represents the first index of an array?
+What is the length property of an array?
+How do you calculate the last index of an array?
