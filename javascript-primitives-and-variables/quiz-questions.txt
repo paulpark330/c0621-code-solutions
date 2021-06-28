@@ -1,0 +1,50 @@
+What is the purpose of variables?
+-Store data for a script to do its job
+
+
+How do you declare a variable?
+-var
+
+
+How do you initialize (assign a value to) a variable?
+-By using the assignment operator
+
+
+What characters are allowed in variable names?
+-Letters, numbers, dollar sign, underscore
+
+
+What does it mean to say that variable names are "case sensitive"?
+-Score and score are different variable names
+
+
+What is the purpose of a string?
+-String type data consists of letters and other characters
+
+
+What is the purpose of a number?
+-Numeric data type handle number quantities
+
+
+What is the purpose of a boolean?
+-Boolean data types can have one of two values: ture or false.
+
+
+What does the = operator mean in JavaScript?
+-Assign a value to the variable
+
+
+How do you update the value of a variable?
+-By using the assignment operator
+
+
+What is the difference between null and undefined?
+-null is an intentionally assigned value to a nonexistent or invalid object, undefined means a variable has been declared but not defined yet
+
+
+Why is it a good habit to include "labels" when you log values to the browser console?
+-A console log "label" is simply a short string that describes the variable or value being logged
+
+
+Give five examples of JavaScript primitives.
+-There are 7 primitive data types: string, number, bigint, boolean, undefined, symbol, and null
