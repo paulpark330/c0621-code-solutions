@@ -1,0 +1,5 @@
+What data type is returned by an arithmetic operation?
+What is string concatenation?
+What purpose(s) does the + plus operator serve in JavaScript?
+What data type is returned by comparing two values (<, >, ===, etc)?
+What does the += "plus-equals" operator do?
