@@ -1,0 +1,18 @@
+What data type is returned by an arithmetic operation?
+-Single numerical value
+
+
+What is string concatenation?
+-Concatenate is a fancy programming word that means "join together"
+
+
+What purpose(s) does the + plus operator serve in JavaScript?
+-The addition operator produces the sum of numeric operands or string concatenation
+
+
+What data type is returned by comparing two values (<, >, ===, etc)?
+-Boolean
+
+
+What does the += "plus-equals" operator do?
+-The addition assignment operator adds the value of the right operand to a variable and assigns the result to the variable.
