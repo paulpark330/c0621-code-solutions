@@ -1,0 +1,5 @@
+What are objects used for?
+What are object properties?
+Describe object literal notation.
+How do you remove a property from an object?
+What are the two ways to get or update the value of a property?
