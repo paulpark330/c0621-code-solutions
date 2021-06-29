@@ -1,0 +1,35 @@
+What is a function in JavaScript?
+-Series of statements grouped together to perform a specific task
+
+
+Describe the parts of a function definition.
+-function keyword
+-Name for the function
+-Comma separated list of zero or more parameters surrounded by ()
+-Start of code block indicated by {
+-Optional return statement
+-End of code block indicated by }
+
+
+Describe the parts of a function call.
+-Function name
+-Comma separated list of zero or more arguments surroundged by()
+
+
+When comparing them side-by-side, what are the differences between a function call and a function definition?
+-Function definitions require function keywords and function callings do not require function keywords
+-Function definitions have parameters and function callings have arguments
+
+
+What is the difference between a parameter and an argument?
+-Function parameters are the names listed in the function's definition
+-Function arguments are the real values passed to the function
+
+
+Why are function parameters useful?
+-The parameter will be holding the value of the argument
+
+
+What two effects does a return statement have on the behavior of a function?
+-Causes the function to produce a value we can use in our program
+-Prevents any more code in the function's code block from being run
