@@ -30,22 +30,23 @@
   display: flex;
 }
 
-.product-img {
-  border: 1px solid black;
+.product-name-price h3 {
+  font-weight: 300;
 }
 
-.product-name-size {
-  border: 1px solid black;
+.product-container {
+  margin: 0 1rem 0 1rem;
 }
 
 img {
-  object-fit: contain;
-  width: 15rem;
+  width: 16rem;
+  height: 25rem;
+  object-fit: fill;
 }
 
 .size {
   color: #d4d4d4;
-  border-left: 1px solid #d4d4d4;
+  border-left: 0.1rem solid #d4d4d4;
   padding-left: 0.4rem;
 }
 
@@ -55,5 +56,6 @@ img {
 
 .sale {
   color: #d4d4d4;
-  text-decoration: 1px line-through;
+  text-decoration: 0.1rem line-through;
+  margin-left: 0.5rem;
 }
