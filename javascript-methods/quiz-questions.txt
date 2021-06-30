@@ -1,0 +1,55 @@
+Why do we log things to the console?
+-For debugging and an easy way to inspect your variables in the browser
+
+
+What is a method?
+-A method is a function which is a property of an object
+
+
+How is a method different from any other function?
+-Method is associated with an object while a function is not
+
+
+How do you remove the last element from an array?
+-Calling the pop() method of the array
+
+
+How do you round a number down to the nearest integer?
+-Calling the floor() method of the Math object
+
+
+How do you generate a random number?
+-Calling the random() method of the Math object
+
+
+How do you delete an element from an array?
+-Calling the splice() method of the array
+
+
+How do you append an element to an array?
+-Calling the push() method of the array
+
+
+How do you break a string up into an array?
+-Calling the split() method of the variable
+
+
+Do string methods change the original string? How would you check if you weren't sure?
+-It does not
+-Log the variable containing the original string to the console
+
+
+Roughly how many string methods are there according to the MDN Web docs?
+-
+
+
+Is the return value of a function or method useful in every situation?
+-No because some functions don't return any value
+
+
+Roughly how many array methods are there according to the MDN Web docs?
+-
+
+
+What three-letter acronym should you always include in your Google search about a JavaScript method or CSS property?
+-MDN

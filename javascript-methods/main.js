@@ -1,0 +1,65 @@
+var x = 13;
+var y = 24;
+var z = 18;
+
+var maximumValue = Math.max(x, y, z);
+
+var heroes = ['Captain America', 'Thor', 'Iron Man', 'Hulk'];
+
+console.log('maximumValue:', maximumValue);
+
+var randomNumber = Math.random();
+
+randomNumber = randomNumber * heroes.length;
+
+var randomIndex = Math.floor(randomNumber);
+
+console.log('randomIndex:', randomIndex);
+
+var randomHero = heroes[randomIndex];
+
+console.log('randomHero:', randomHero);
+
+var library = [
+  { title: 'Rich Dad Poor Dad', author: 'Robert Kiyosaki' },
+  { title: 'Atomic Habits', author: 'James Clear' },
+  { title: 'Human Hacking', author: 'Christopher Hadnagy' }
+];
+
+var lastBook = library.pop();
+
+console.log('lastBook:', lastBook);
+
+var firstBook = library.shift();
+
+console.log('firstBook:', firstBook);
+
+var js = {
+  title: 'Javascript for Impatient Programmers',
+  author: 'Dr. Axel Rauschmayer'
+};
+
+var css = {
+  title: 'CSS Secrets',
+  author: 'Lea Verou'
+};
+
+library.push(js);
+
+library.unshift(css);
+
+library.splice(1, 1);
+
+console.log('library:', library);
+
+var fullName = 'Paul Park';
+
+var firstAndLastName = fullName.split(' ');
+
+console.log('firstAndLastName:', firstAndLastName);
+
+var firstName = firstAndLastName[0];
+
+var sayMyName = firstName.toUpperCase();
+
+console.log('sayMyName:', sayMyName);
