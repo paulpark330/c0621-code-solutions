@@ -1,0 +1,52 @@
+.row {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.col-half {
+  flex-basis: 50%;
+}
+
+.nav-bar-nav {
+  list-style: none;
+}
+
+.nav-bar {
+  border-bottom: 1px solid lightgray;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-left {
+  justify-content: flex-start;
+}
+
+.justify-right {
+  justify-content: flex-end;
+}
+
+.margin-left {
+  margin-left: 4rem;
+}
+
+.margin-right {
+  margin-right: 4rem;
+}
+
+.margin-both {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.direction-row {
+  flex-direction: column;
+}
