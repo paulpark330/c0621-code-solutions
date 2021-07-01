@@ -1,0 +1,40 @@
+What is the purpose of a loop?
+-Checks a condition and runs the code if the condition returns true
+-Stops the code when the code returns false
+
+
+What is the purpose of a condition expression in a loop?
+-Determines whether to keep going or stop
+
+
+What does "iteration" mean in the context of loops?
+-Every time a code block runs
+
+
+When does the condition expression of a while loop get evaluated?
+-In the beginning
+
+
+When does the initialization expression of a for loop get evaluated?
+-Just once at the beginning of the condition
+
+
+When does the condition expression of a for loop get evaluated?
+-Before each iteration
+
+
+When does the final expression of a for loop get evaluated?
+-At the end of the each iteration and before the condition runs again
+
+
+Besides a return statement, which exits its entire function block, which keyword exits a loop before its condition expression evaluates to false?
+-Break
+
+
+What does the ++ increment operator do?
+-Adds 1 to the counter
+
+
+How do you iterate through the keys of an object?
+-Using the for in loop
+
