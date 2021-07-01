@@ -1,7 +1,28 @@
 Give 6 examples of comparison operators.
+-==, !=, ===, !==, >, <, >=, <=
+
 What data type do comparison expressions evaluate to?
+-Boolean
+
+
 What is the purpose of an if statement?
+-If statement evalutates a condition
+-If condition evaluates to true, code block is executed
+
+
 Is else required in order to use an if statement?
+-Not required
+
+
 Describe the syntax (structure) of an if statement.
+-if keyword
+-Condition between parenthesis
+-Code block between curly braces
+
+
 What are the three logical operators?
+-&&, ||, !
+
+
 How do you compare two different expressions in the same condition?
+-Using &&
