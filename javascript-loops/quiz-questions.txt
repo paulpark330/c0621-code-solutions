@@ -1,0 +1,10 @@
+What is the purpose of a loop?
+What is the purpose of a condition expression in a loop?
+What does "iteration" mean in the context of loops?
+When does the condition expression of a while loop get evaluated?
+When does the initialization expression of a for loop get evaluated?
+When does the condition expression of a for loop get evaluated?
+When does the final expression of a for loop get evaluated?
+Besides a return statement, which exits its entire function block, which keyword exits a loop before its condition expression evaluates to false?
+What does the ++ increment operator do?
+How do you iterate through the keys of an object?
