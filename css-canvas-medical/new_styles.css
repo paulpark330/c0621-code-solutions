@@ -42,11 +42,24 @@
   margin-right: 4rem;
 }
 
-.margin-both {
+.margin-top-1rem {
+  margin-top: 1rem;
+}
+
+.margin-side-2rem {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.margin-side-4rem {
   margin-left: 4rem;
   margin-right: 4rem;
 }
 
+.padding-bottom-1rem {
+  padding-bottom: 1rem;
+}
+
 .direction-row {
-  flex-direction: column;
+  flex-direction: row;
 }
