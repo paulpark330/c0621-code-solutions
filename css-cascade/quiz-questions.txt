@@ -1,0 +1,18 @@
+What are the four components of "the Cascade".
+-Source order, inheritance, specificity, !important
+
+
+What does the term "source order" mean with respect to CSS?
+-Order that your CSS rules are written in your stylesheet.
+
+
+How is it possible for the styles of an element to be applied to its children as well without an additional CSS rule?
+-Inheritance is the process by which certain CSS properties on a child HTML element can receive value from a parent element
+
+
+List the three selector types in order of increasing specificity.
+-element, class, id
+
+
+Why is using !important considered bad practice?
+-!important makes debugging more difficult by breaking the natural cascading in your stylesheets
