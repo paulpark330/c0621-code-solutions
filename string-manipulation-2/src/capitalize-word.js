@@ -1,6 +1,6 @@
 /* exported capitalizeWord */
 //  Storage for new string
-//  Lowercase parameter
+//  Lowercase input
 //  IF the lowercased string is 'javascript'
 //    Put 'JavaScript' in new string
 //  ELSE
