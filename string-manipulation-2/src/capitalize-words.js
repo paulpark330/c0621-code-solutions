@@ -12,11 +12,12 @@
 function capitalizeWords(string) {
   var newString = '';
   string = string.toLowerCase();
-  newString += string[0];
+  newString += string[0].toUpperCase();
   for (let i = 1; i < string.length; i++) {
     if (string[i] === ' ') {
-      var uppercase = string[i + 1].toUpperCase();
-      newString += uppercase;
+      newString += string[i];
+      newString += string[i + 1].toUpperCase();
+      i -= -1
     } else {
       newString += string[i];
     }
