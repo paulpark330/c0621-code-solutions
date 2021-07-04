@@ -1,0 +1,30 @@
+/* exported take */
+
+// EDGE CASES
+
+//  First argument is an empty array
+//  Second argument is 0
+//  Count is greater than length of array
+
+//  PSEUDOCODE
+
+//  Storage for new array
+//  IF array is empty or count is 0,
+//    RETURN new array
+//  Go through every item in the array
+//    Put item in the new array
+//    IF new array has count amount of items,
+//      RETURN the new array
+
+function take(array, count) {
+  var newArr = [];
+  if (array.length === 0 || count === 0) {
+    return newArr;
+  }
+  for (let i = 0; i < array.length; i++) {
+    newArr.push(array[i]);
+    if (newArr.length === count) {
+      return newArr;
+    }
+  }
+}
