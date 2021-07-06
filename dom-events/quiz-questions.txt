@@ -16,7 +16,7 @@ What is a callback function?
 
 
 What object is passed into an event listener callback when the event fires?
--Name of function to call
+-An object with all of the possible data the browser can provide
 
 
 What is the event.target? If you weren't sure, how would you check? Where could you get more information about it?
@@ -25,4 +25,5 @@ What is the event.target? If you weren't sure, how would you check? Where could 
 What is the difference between these two snippets of code?
 element.addEventListener('click', handleClick)
 element.addEventListener('click', handleClick())
--In the second snippet, the event listener is calling an anonymous function
+-In the first snippet, the event listener will call on the handleClick function only when the event occurs
+-In the second snippet, the event listener is calling on handleClick function but that immediately calls the function
