@@ -1,14 +1,9 @@
 /* exported defaults */
 
-//  EDGE CASES
-
-//
-
 //  PSEUDOCODE
 
-//  Go through every property in target
-//    Go through every property in source
-//      IF property is not already defined in target
+//  Go through every property in source
+//    IF property in target is not in target
 //        Add property from source to target
 
 

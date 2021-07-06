@@ -1,9 +1,5 @@
 /* exported invert */
 
-//  EDGE CASES
-
-//
-
 //  PSEUDOCODE
 
 //  Storage for new object
