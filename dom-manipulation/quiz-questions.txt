@@ -15,7 +15,7 @@ How do you update the text within an element using JavaScript?
 
 
 Is the event parameter of an event listener callback always useful?
--Yes, it tells JavaScript when to run the code
+-No
 
 
 Would this assignment be simpler or more complicated if we didn't use a variable to keep track of the number of clicks?
