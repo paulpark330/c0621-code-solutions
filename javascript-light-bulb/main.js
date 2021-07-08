@@ -1,15 +1,14 @@
 var $lightBulb = document.querySelector('.lightbulb');
 var $container = document.querySelector('.container');
-var clickCount = 0;
 
 function click(event) {
-  clickCount++;
-  if (clickCount % 2 === 0) {
-    $lightBulb.className = 'lightbulb on';
-    $container.className = 'container on';
-  } else {
+  if ($lightBulb.className === 'lightbulb on') {
     $lightBulb.className = 'lightbulb off';
     $container.className = 'container off';
+
+  } else {
+    $lightBulb.className = 'lightbulb on';
+    $container.className = 'container on';
   }
 }
 
