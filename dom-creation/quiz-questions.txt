@@ -1,7 +1,28 @@
 Does the document.createElement() method insert a new element into the page?
+-It does not
+
+
 How do you add an element as a child to another element?
+-element.appendChild()
+
+
 What do you pass as the arguments to the element.setAttribute() method?
+-The name and the value of the attribute
+
+
 What steps do you need to take in order to insert a new element into the page?
+-Create the element, give it content, add it to the dom
+
+
 What is the textContent property of an element object for?
+-Represents the text content of the node and its descendants.
+
+
 Name two ways to set the class attribute of a DOM element.
+-element.setAttribute()
+-element.className
+
+
 What are two advantages of defining a function to do create something (like the work of creating a DOM tree)?
+-Saves time in the long rung
+-Easy to reuse
