@@ -1,0 +1,27 @@
+.container.on {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container.off {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.932);
+}
+
+.lightbulb.on {
+  border: 8rem solid #faea84;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #faea84;
+}
+
+.lightbulb.off {
+  border: 8rem solid #252525;
+  border-radius: 50%;
+  box-shadow: 0 -16px black;
+}
