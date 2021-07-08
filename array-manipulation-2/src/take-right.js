@@ -13,7 +13,6 @@
 //    RETURN new array
 //  Go through every item in the array starting from count
 //    Put item in the new array
-//    IF new array has count amount of items,
 //      RETURN the new array
 
 function takeRight(array, count) {
@@ -23,8 +22,6 @@ function takeRight(array, count) {
   }
   for (let i = array.length - count; i < array.length; i++) {
     newArr.push(array[i]);
-    if (newArr.length === count) {
-      return newArr;
-    }
   }
+  return newArr;
 }

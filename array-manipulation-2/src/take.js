@@ -11,20 +11,17 @@
 //  Storage for new array
 //  IF array is empty or count is 0,
 //    RETURN new array
-//  Go through every item in the array
+//  Go through every item in the array until count
 //    Put item in the new array
-//    IF new array has count amount of items,
-//      RETURN the new array
+//   RETURN the new array
 
 function take(array, count) {
   var newArr = [];
   if (array.length === 0 || count === 0) {
     return newArr;
   }
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 0; i < count; i++) {
     newArr.push(array[i]);
-    if (newArr.length === count) {
-      return newArr;
-    }
   }
+  return newArr;
 }
