@@ -1,0 +1,46 @@
+* {
+  font-family: "Yomogi", cursive;
+}
+
+.container {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accuracy-display-none {
+  display: none;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.accuracy-display-block {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.play-again-btn {
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem 3rem;
+  background-color: cornflowerblue;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+span {
+  color: black;
+}
+
+.underline-black {
+  border-bottom: 0.4rem solid black;
+}
+
+.underline-red {
+  border-bottom: 0.4rem solid red;
+}
