@@ -13,8 +13,11 @@
   left: 1rem;
 }
 
-.modal {
+.display-none {
   display: none;
+}
+
+.modal {
   position: fixed;
   left: 0;
   top: 0;

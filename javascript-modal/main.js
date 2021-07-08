@@ -3,11 +3,11 @@ var $modal = document.querySelector('.modal');
 var $no = document.querySelector('.no-btn');
 
 function modalOn(event) {
-  $modal.style.display = 'block';
+  $modal.className = 'modal';
 }
 
 function modalOff(event) {
-  $modal.style.display = 'none';
+  $modal.className = 'modal display-none';
 }
 
 $openModalBtn.addEventListener('click', modalOn);
