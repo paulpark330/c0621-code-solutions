@@ -1,0 +1,2 @@
+The transition property is shorthand for which four CSS properties?
+-transition-property, transition-duration, transition-timing-function, and transition-delay
