@@ -1,7 +1,26 @@
 What is the event.target?
+-The target of the event (most specific element interacted with)
+
+
 What is the affect of setting an element to display: none?
+-Turns off the display of an element so that it has no effect on layout (the document is rendered as though the element did not exist).
+
+
 What does the element.matches() method take as an argument and what does it return?
+-Checks if the element "is" the selector.
+
+
 How can you retrieve the value of an element's attribute?
+-getAttribute()
+
+
 At what steps of the solution would it be helpful to log things to the console?
+-Every step
+
+
 If you were to add another tab and view to your HTML, but you didn't use event delegation, how would your JavaScript code be written instead?
+-Event listener for every DOM element
+
+
 If you didn't use a loop to conditionally show or hide the views in the page, how would your JavaScript code be written instead?
+-Event listener for every DOM element
