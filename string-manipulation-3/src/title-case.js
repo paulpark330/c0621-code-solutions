@@ -59,8 +59,6 @@ for (i = 0; i < finalString.length; i++) {
 return hyphenString.replace('Javascript', 'JavaScript').replace('Api', 'API');
 }
 
-console.log('hi')
-
 
 
 
