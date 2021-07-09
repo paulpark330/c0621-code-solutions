@@ -1,0 +1,24 @@
+What is the event.target?
+-The target of the event (most specific element interacted with)
+
+
+Why is it possible to listen for events on one element that actually happen its descendent elements?
+-Because of event bubbling
+-When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
+
+
+What DOM element property tells you what type of element it is?
+-.tagName
+
+
+What does the element.closest() method take as its argument and what does it return?
+-Takes a DOMString containing a selector list
+-Returns the element which is the closest ancestor of the selected element
+
+
+How can you remove an element from the DOM?
+-Element.remove()
+
+
+If you wanted to insert new clickable DOM elements into the page using JavaScript, how could you avoid adding an event listener to every new element individually?
+-Add the DOM element inside the parent node containing the other DOM elements
