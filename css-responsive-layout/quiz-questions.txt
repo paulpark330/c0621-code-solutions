@@ -1,3 +1,10 @@
 What is a breakpoint in responsive Web design?
+-The points at which a media query is introduced are known as breakpoints
+
+
 What is the advantage of using a percentage (e.g. 50%) width instead of a fixed (e.g. px) width for a "column" class in a responsive layout?
+-Responds relative to the screen size while pixel is an absolute unit
+
+
 If you introduce CSS rules for a smaller min-width after the styles for a larger min-width in your style sheet, the CSS rules for the smaller min-width will "win". Why is that?
+-Because of the source order component of the cascade
