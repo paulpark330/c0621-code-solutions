@@ -1,22 +1,47 @@
 console.log('Lodash is loaded:', typeof _ !== 'undefined');
 
-var players = [{ name: 'paul', hand: null }, { name: 'denny', hand: null }, { name: 'heesoo', hand: null }, { name: 'isaac', hand: null }];
-
+var players = [
+  { name: 'paul', firstHand: null, secondHand: null },
+  { name: 'denny', firstHand: null, secondHand: null },
+  { name: 'heesoo', firstHand: null, secondHand: null },
+  { name: 'isaac', firstHand: null, secondHand: null }
+];
 var deck = [];
 
-function createDeck() {
+function playGame() {
 
-  var suits = ['spades', 'diamond', 'heart', 'club'];
-  var name = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
-  for (let i = 0; i < suits.length; i++) {
-    for (let j = 0; j < name.length; j++) {
-      var card = { rank: name[j], suit: suits[i] };
-      deck.push(card);
+  function createDeck() {
+    var suits = ['spades', 'diamond', 'heart', 'club'];
+    var name = [
+      ['A', 11],
+      ['2', 2],
+      ['3', 3],
+      ['4', 4],
+      ['5', 5],
+      ['6', 6],
+      ['7', 7],
+      ['8', 8],
+      ['9', 9],
+      ['10', 10],
+      ['J', 10],
+      ['Q', 10],
+      ['K', 10]
+    ];
+    for (let i = 0; i < suits.length; i++) {
+      for (let j = 0; j < name.length; j++) {
+        var card = { rank: name[j], suit: suits[i] };
+        deck.push(card);
+      }
     }
+  }
+
+  createDeck();
+  var shuffleDeck = _.shuffle(deck);
+  for (let i = 0; i < players.length; i++) {
+    players[i].firstHand = shuffleDeck[Math.floor(Math.random() * 52)];
+    players[i].secondHand = shuffleDeck[Math.floor(Math.random() * 52)];
+    players[i].result = players[i].firstHand.rank[1] + players[i].secondHand.rank[1];
   }
 }
 
-var shuffleDeck = [];
-
-shuffleDeck = players;
-createDeck(shuffleDeck);
+playGame();
