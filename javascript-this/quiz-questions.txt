@@ -1,0 +1,39 @@
+What is this in JavaScript?
+
+
+
+What does it mean to say that this is an "implicit parameter"?
+-Implicit parameter is available in a function's code block even though it was never included in the function's parameter list or declared with var
+
+
+When is the value of this determined in a function; call time or definition time?
+-Call time
+
+
+What does this refer to in the following code snippet?
+  var character = {
+    firstName: 'Mario',
+    greet: function () {
+      var message = 'It\'s-a-me, ' + this.firstName + '!';
+      console.log(message);
+    }
+  };
+-character object
+
+
+Given the above character object, what is the result of the following code snippet? Why?
+  character.greet();
+-'It's-a-me, Mario!'
+-this is character
+
+
+Given the above character object, what is the result of the following code snippet? Why?
+  var hello = character.greet;
+  hello();
+-'It's-a-me, undefined!'
+
+
+How can you tell what the value of this will be for a particular function or method definition?
+
+
+How can you tell what the value of this is for a particular function or method call?
