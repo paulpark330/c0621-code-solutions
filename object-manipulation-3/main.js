@@ -42,6 +42,16 @@ function playGame() {
     players[i].secondHand = shuffleDeck[Math.floor(Math.random() * 52)];
     players[i].result = players[i].firstHand.rank[1] + players[i].secondHand.rank[1];
   }
+  console.log(players);
+  var max = 0;
+  var winner = {};
+  for (let i = 0; i < players.length; i++) {
+    if (players[i].result > max) {
+      max = players[i].result;
+      winner = players[i];
+    }
+  }
+  console.log('winner: ' + winner.name + ': ' + winner.result);
 }
 
 playGame();
