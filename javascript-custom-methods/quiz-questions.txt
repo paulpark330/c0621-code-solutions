@@ -3,13 +3,13 @@ What is a method?
 
 
 How can you tell the difference between a method definition and a method call?
-
+-Method definition occurs inside the object literal while method call occurs by using dot notation
 
 Describe method definition syntax (structure).
-
+-Defines method inside object literal without function keyword
 
 Describe method call syntax (structure).
-
+-Call the method by using dot notation
 
 How is a method different from any other function?
 -Method is associated with an object while a function is not
