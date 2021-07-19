@@ -1,23 +1,3 @@
-// var student = {
-//   firstName: this.firstName,
-//   lastName: this.lastName,
-//   subject: this.subject,
-//   getFullName: function () {
-//     return this.firstName + ' ' + this.lastName;
-//   },
-//   getIntroduction: function () {
-//     return (
-//       'Hello, my name is ' +
-//       this.firstName +
-//       ' ' +
-//       this.lastName +
-//       ' and I am studying ' +
-//       this.subject +
-//       '.'
-//     );
-//   }
-// };
-
 function Student(firstName, lastName, subject) {
   this.firstName = firstName;
   this.lastName = lastName;
