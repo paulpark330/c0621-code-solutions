@@ -1,0 +1,14 @@
+What does the new operator do?
+-Creates a blank, plain JavaScript object
+-Adds a property to the new object (__proto__) that links to the constructor function's prototype object
+-Binds the newly created object instance as the this context
+-Returns this if the function doesn't return an object
+
+
+What property of JavaScript functions can store shared behavior for instances created with new?
+-prototype
+
+
+What does the instanceof operator do?
+-The instanceof operator tests to see if the prototype property of a constructor appears anywhere in the prototype chain of an object
+-Return value is a boolean value
