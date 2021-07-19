@@ -1,0 +1,35 @@
+What is a method?
+-Method is a function which is a property of an object
+
+
+How can you tell the difference between a method definition and a method call?
+-Method definition occurs inside the object literal while method call occurs by using dot notation
+
+Describe method definition syntax (structure).
+-Defines method inside object literal without function keyword
+
+Describe method call syntax (structure).
+-Call the method by using dot notation
+
+How is a method different from any other function?
+-Method is associated with an object while a function is not
+
+
+What is the defining characteristic of Object-Oriented Programming?
+-Objects can contain both data (as properties) and behavior (as methods)
+
+
+What are the four "principles" of Object-Oriented Programming?
+-Abstraction, Encapsulation, Inheritance, Polymorphism
+
+
+What is "abstraction"?
+-Being able to work with possibly complex things in simple ways
+
+
+What does API stand for?
+-Application Programming Interface
+
+
+What is the purpose of an API?
+-Offers service to other pieces of software
