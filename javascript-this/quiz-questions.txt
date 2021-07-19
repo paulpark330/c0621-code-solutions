@@ -1,5 +1,5 @@
 What is this in JavaScript?
-
+-Object this is acting on
 
 
 What does it mean to say that this is an "implicit parameter"?
@@ -18,8 +18,7 @@ What does this refer to in the following code snippet?
       console.log(message);
     }
   };
--character object
-
+-nothing
 
 Given the above character object, what is the result of the following code snippet? Why?
   character.greet();
@@ -34,6 +33,8 @@ Given the above character object, what is the result of the following code snipp
 
 
 How can you tell what the value of this will be for a particular function or method definition?
+-If you cannot see the function being called, then you do not know what the value of this will be.
 
 
 How can you tell what the value of this is for a particular function or method call?
+-The value of this can be recognized as "the object to the left of the dot" when the function is called (as a method).
