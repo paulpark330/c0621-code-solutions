@@ -6,9 +6,10 @@ var players = [
   { name: 'heesoo', firstHand: null, secondHand: null },
   { name: 'isaac', firstHand: null, secondHand: null }
 ];
-var deck = [];
 
 function playGame() {
+  var deck = [];
+  var shuffleDeck = [];
 
   function createDeck() {
     var suits = ['spades', 'diamond', 'heart', 'club'];
@@ -36,10 +37,12 @@ function playGame() {
   }
 
   createDeck();
-  var shuffleDeck = _.shuffle(deck);
+  shuffleDeck = _.shuffle(deck);
   for (let i = 0; i < players.length; i++) {
-    players[i].firstHand = shuffleDeck[Math.floor(Math.random() * 52)];
-    players[i].secondHand = shuffleDeck[Math.floor(Math.random() * 52)];
+    players[i].firstHand = shuffleDeck[0];
+    shuffleDeck.splice(0, 1);
+    players[i].secondHand = shuffleDeck[0];
+    shuffleDeck.splice(0, 1);
     players[i].result = players[i].firstHand.rank[1] + players[i].secondHand.rank[1];
   }
   console.log(players);
