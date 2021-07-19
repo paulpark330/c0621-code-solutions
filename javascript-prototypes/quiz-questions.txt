@@ -1,0 +1,14 @@
+What kind of inheritance does the JavaScript programming language use?
+-prototype-based inheritance
+
+
+What is a prototype in JavaScript?
+-JavaScript prototype is simply an object that contains properties and (predominantly) methods that can be used by other objects
+
+
+How is it possible to call methods on strings, arrays, and numbers even though those methods don't actually exist on objects, arrays, and numbers?
+-Methods are defined on a "prototype" object and arrays simply borrow those methods when they're needed
+
+
+If an object does not have it's own property or method by a given key, where does JavaScript look for it?
+-Prototypes
