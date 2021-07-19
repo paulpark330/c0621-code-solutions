@@ -1,13 +1,6 @@
 console.log('Lodash is loaded:', typeof _ !== 'undefined');
 
-var players = [
-  { name: 'paul', firstHand: null, secondHand: null },
-  { name: 'denny', firstHand: null, secondHand: null },
-  { name: 'heesoo', firstHand: null, secondHand: null },
-  { name: 'isaac', firstHand: null, secondHand: null }
-];
-
-function playGame() {
+function playGame(players, numOfCards) {
   var deck = [];
   var shuffleDeck = [];
 
@@ -39,22 +32,34 @@ function playGame() {
   createDeck();
   shuffleDeck = _.shuffle(deck);
   for (let i = 0; i < players.length; i++) {
-    players[i].firstHand = shuffleDeck[0];
-    shuffleDeck.splice(0, 1);
-    players[i].secondHand = shuffleDeck[0];
-    shuffleDeck.splice(0, 1);
-    players[i].result = players[i].firstHand.rank[1] + players[i].secondHand.rank[1];
+    var sum = 0;
+    for (let j = 1; j <= numOfCards; j++) {
+      players[i][j] = shuffleDeck[0];
+      sum += players[i][j].rank[1];
+      players[i].sum = sum;
+      shuffleDeck.splice(0, 1);
+    }
+    console.log(players[i]);
   }
-  console.log(players);
   var max = 0;
   var winner = {};
   for (let i = 0; i < players.length; i++) {
-    if (players[i].result > max) {
-      max = players[i].result;
+    if (players[i].sum > max) {
+      max = players[i].sum;
       winner = players[i];
     }
   }
-  console.log('winner: ' + winner.name + ': ' + winner.result);
+  console.log('winner: ' + winner.name + ' total: ' + winner.sum);
 }
 
-playGame();
+playGame(
+  [
+    { name: 'paul' },
+    { name: 'denny' },
+    { name: 'heesoo' },
+    { name: 'isaac' },
+    { name: 'danny' },
+    { name: 'mike' }
+  ],
+  2
+);
