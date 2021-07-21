@@ -1,0 +1,49 @@
+.carousel {
+  margin: 5rem auto;
+  border: 2px solid black;
+  width: 50%;
+}
+
+img {
+  width: 50%;
+  margin: 1rem;
+}
+
+.fa-circle {
+  margin: 0.4rem;
+  font-size: 0.6rem;
+}
+
+.selected {
+  font-weight: 600;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  font-size: 2rem;
+}
+
+.row {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.margin-left-right {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.hidden {
+  display: none;
+}
