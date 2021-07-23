@@ -1,0 +1,32 @@
+What is a client?
+-Piece of computer hardware or software that accesses a service made available by a server
+
+
+What is a server?
+-Piece of computer hardware or software that provides functionality for other programs or devices
+
+
+Which HTTP method does a browser issue to a web server when you visit a URL?
+-GET
+
+
+What three things are on the start-line of an HTTP request message?
+-HTTP method, request target, asterisk form
+
+
+What three things are on the start-line of an HTTP response message?
+-Protocol version, status code, status text
+
+
+What are HTTP headers?
+-HTTP headers let the client and the server pass additional information with an HTTP request or response
+
+
+Where would you go if you wanted to learn more about a specific HTTP Header?
+-MDN
+
+
+Is a body required for a valid HTTP request or response message?
+-Not all HTTP requests or responses have a body
+-Requests fetching resources, like GET, HEAD, DELETE, or OPTIONS, usually don't need one
+-Responses with a status code that sufficiently answers the request without the need for corresponding payload usually don't
