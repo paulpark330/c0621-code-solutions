@@ -11,7 +11,7 @@ Which HTTP method does a browser issue to a web server when you visit a URL?
 
 
 What three things are on the start-line of an HTTP request message?
--HTTP method, request target, asterisk form
+-HTTP method, request target, HTTP version
 
 
 What three things are on the start-line of an HTTP response message?
