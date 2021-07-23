@@ -15,4 +15,5 @@ What event is fired by XMLHttpRequest objects when they are finished loading the
 
 
 Bonus Question: An XMLHttpRequest object has an addEventListener() method just like DOM elements. How is it possible that they both share this functionality?
--
+-XHR object inherits properties of XMLHttpRequestEventTarget and of EventTarget
+-XHR objects DOM element are both a event targets and share the addEventListener method
