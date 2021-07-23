@@ -1,0 +1,18 @@
+What is AJAX?
+-Technique for loading data into part of a page without having to refresh the entire page
+
+
+What does the AJAX acronym stand for?
+-Asynchronous JavaScript and XML
+
+
+Which object is built into the browser for making HTTP requests in JavaScript?
+-XMLHttpRequest or XHR
+
+
+What event is fired by XMLHttpRequest objects when they are finished loading the data from the server?
+-load
+
+
+Bonus Question: An XMLHttpRequest object has an addEventListener() method just like DOM elements. How is it possible that they both share this functionality?
+-
