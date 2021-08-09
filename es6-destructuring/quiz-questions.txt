@@ -1,0 +1,18 @@
+What is destructuring, conceptually?
+-Unpacking values from objects and arrays into variables
+
+
+What is the syntax for Object destructuring?
+-Variable declaration
+-Curly braces
+-The identifier before the colon (:) is the property of the object and the identifier after the colon is the variable
+-Equal sign and object name
+
+What is the syntax for Array destructuring?
+-Variable declaration
+-Square brackets with variable names separated by commas
+-Equal sign and object name
+
+How can you tell the difference between destructuring and creating Object/Array literals?
+-When creating object/array literals, we assign the object to the variable
+-When destructuring, we assign the object to the variable
