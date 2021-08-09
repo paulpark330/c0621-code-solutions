@@ -1,0 +1,6 @@
+What is the syntax for writing a template literal?
+-Use backticks instead of single or double quotes
+-To substitute a variable and an expression, use this block: ${variable_name}
+
+What is "string interpolation"?
+-String interpolation allow you to embed variables and expressions in a string. The JavaScript engine will automatically replace these variables and expressions with their values.
