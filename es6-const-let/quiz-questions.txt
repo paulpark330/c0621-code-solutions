@@ -1,0 +1,23 @@
+What is a code block? What are some examples of a code block?
+-Grouped zero or more statements within curly braces
+
+
+What does block scope mean?
+-A block scope is the area within if, switch conditions or for and while loops.
+
+
+What is the scope of a variable declared with const or let?
+-Those variables exist only within the corresponding block.
+
+
+What is the difference between let and const?
+-Variable declared by let are mutable but variables declared by const are immutable
+
+
+Why is it possible to .push() a new value into a const variable that points to an Array?
+-The const keyword ensures that the variable it creates is read-only
+-However, it doesn’t mean that the actual value to which the const variable reference is immutable
+
+
+How should you decide on which type of declaration to use?
+-For read-only variables, use const
