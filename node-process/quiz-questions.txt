@@ -1,0 +1,10 @@
+What is a computer process?
+-Process is the instance of a computer program that is being executed by one or many threads
+
+
+Roughly how many computer processes are running on your host operating system (Task Manager or Activity Monitor)?
+-120
+
+
+Why should a full stack Web developer know that computer processes exist?
+-Full stack development is based on making multiple processes work together to form one appliation
