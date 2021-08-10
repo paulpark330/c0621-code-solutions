@@ -1,0 +1,33 @@
+What is a CLI?
+-Command-line Interface
+
+
+What is a GUI?
+-Graphical User Interface
+
+
+Give at least one use case for each of the commands listed in this exercise.
+man
+-Interface to the online reference manual
+cat
+-Concatenate files and print on the standard output
+ls
+-List directory contents
+pwd
+-Print name of working directory
+echo
+-Display a line of text
+touch
+-Change file timestamps
+mkdir
+-Make directories
+mv
+-Move (rename) files
+rm
+-Remove files or directories
+cp
+-Copy files and directories
+
+
+What are the three virtues of a great programmer?
+-Laziness, Anger, and Hubris
