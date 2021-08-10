@@ -1,0 +1,18 @@
+What is Node.js?
+-Asynchronous event-driven JavaScript runtime
+
+
+What can Node.js be used for?
+-Build scalable network applications
+
+
+What is a REPL?
+-Read-eval-print loop
+
+
+When was Node.js created?
+-Node.js was initially released on May 27, 2009
+
+
+What back end languages have you heard of?
+-C, C++, Java, Ruby, PHP, Python
