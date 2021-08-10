@@ -1,0 +1,230 @@
+    1  git config --global user.name "Paul Park"
+    2  git config --global user.email "paulpark330@hotmail.com"
+    3  git config --global --list
+    4  cd ~/repos/c0621-code-solutions/
+    5  git status
+    6  cd ~/repos/c0621-code-solutions/
+    7  git status
+    8  git pull origin master
+    9  git branch javascript-ajax
+   10  git switch javascript-ajax 
+   11  git status
+   12  git add --all
+   13  git status
+   14  git commit -m "completed javascript-ajax"
+   15  git push origin javascript-ajax 
+   16  git checkout master
+   17  git pull origin master
+   18  git status
+   19  git add --all
+   20  git status
+   21  git push origin master
+   22  git status
+   23  git commit -m "updated quiz-questions.txt"
+   24  git push origin master
+   25  git status
+   26  git pull origin master
+   27  cd
+   28  http https://jsonplaceholder.typicode.com/users
+   29  https https://api.quarantine.country/api/v1/summary/latest
+   30  http https://public.api.quarantine.country/summary/region?region=usa
+   31  http https://covidtrackerapi.bsg.ox.ac.uk/api/v2/stringency/date-range/2021-07-01/2021-07-31
+   32  git clear
+   33  git clean
+   34  clear
+   35  http https://api.lyrics.ovh/v1/bts/butter
+   36  http  http https://api.lyrics.ovh/v1/coldplay/
+   37  clear
+   38  http https://api.yelp.com/v3/businesses/search
+   39  http https://api.pandascore.co/lol/champions?token=_g8je6_IZ8WrEPjlCgB-PG2588hD3Ume9yISokmfKl3uP-h5gGc&filter[name]=Sejuani"
+   40  tp https://api.pandascore.co/lol/champions?token=_g8je6_IZ8WrEPjlCgB-PG2588hD3Ume9yISokmfKl3uP-h5gGc&filter[name]=Sejuani"tp https://api.pandascore.co/lol/champions?token=_g8je6_IZ8WrEPjlCgB-PG2588hD3Ume9yISokmfKl3uP-h5gGc&filter[name]=Sejuani"
+   41  clear
+   42  http https://api.pandascore.co/lol/champions?token=_g8je6_IZ8WrEPjlCgB-PG2588hD3Ume9yISokmfKl3uP-h5gGc&filter[name]=Sejuani
+   43  cd ~/repos/c0621-code-solutions/
+   44  code .
+   45  h
+   46  http https://api.pandascore.co/lol/champions?sort=attackdamage,-name&token=_g8je6_IZ8WrEPjlCgB-PG2588hD3Ume9yISokmfKl3uP-h5gGc
+   47  http
+   48  http https://api.pandascore.co/lol/champions?sort=attackdamage,-name&token=_g8je6_IZ8WrEPjlCgB-PG2588hD3Ume9yISokmfKl3uP-h5gGc
+   49  http https://api.pandascore.co/lol/champions?token=_g8je6_IZ8WrEPjlCgB-PG2588hD3Ume9yISokmfKl3uP-h5gGc
+   50  cd ~/repos/ajax-project/
+   51  git status
+   52  git restore --all
+   53  git status
+   54  code .
+   55  git status
+   56  git pull origin master
+   57  git status
+   58  git restore --all
+   59  git restore index.html
+   60  git status
+   61  git restore css/layout.css
+   62  git restore css/styles.css
+   63  git restore js/main.js
+   64  git status
+   65  git branch feature-1-view-champs
+   66  git switch feature-1-view-champs 
+   67  git status
+   68  code .
+   69  git status
+   70  git add --all
+   71  git status
+   72  git commit -m "all champions are displayed"
+   73  git commit -m "all champions are displayed" --no-verify 
+   74  git push origin feature-1-view-champs 
+   75  git status
+   76  git add --all
+   77  git status
+   78  git commit -m 
+   79  git commit -m "enabled desktop view"
+   80  git push origin feature-1-view-champs 
+   81  git pull origin feature-1-view-champs 
+   82  git checkout master
+   83  git fetch --all
+   84  git switch feature-3-add-to-list 
+   85  git status
+   86  git add --all
+   87  git status
+   88  git commit -m "
+   89  \][\=\
+   90  |}{::}{
+   91  _m"
+   92  git status
+   93  git add --all
+   94  git status
+   95  git commit -m "User is able to add champion to the comparison list"
+   96  git push origin feature-3-add-to-list 
+   97  git status
+   98  git add --all
+   99  git status
+  100  got commit -m "modified creating DOM element function to return a DOM tree"
+  101  git push origin feature-3-add-to-list 
+  102  git commit -m "modified creating DOM element function to return a DOM tree"
+  103  git push origin feature-3-add-to-list 
+  104  code .
+  105  git status
+  106  git add --all
+  107  git status
+  108  git commit -m "changed DOMTree functions to take in champion object as parameter"
+  109  git push origin feature-3-add-to-list 
+  110  git checkout master
+  111  git pull origin master
+  112  git status
+  113  git branch feature-4-remove-from-list
+  114  git switch feature-4-remove-from-list 
+  115  git status
+  116  git add --all
+  117  git status
+  118  git commit -m "delete icon when champion is hovered" --no-verify
+  119  git push origin feature-4-remove-from-list 
+  120  git status
+  121  git add --all
+  122  git satus
+  123  git status
+  124  git commit -m "user can delete champion from comparison list"
+  125  git push origin feature-4-remove-from-list 
+  126  git checkout master
+  127  git pull origin master
+  128  git branch feature-5-compare-by-level
+  129  git switch feature-5-compare-by-level 
+  130  git status
+  131  git checkout master
+  132  cd ~/repos/ajax-project/
+  133  ls
+  134  code .
+  135  cd ~/repos/ajax-project/
+  136  code 
+  137  code .
+  138  git switch feature-5-compare-by-level 
+  139  git status
+  140  git add --all
+  141  git status
+  142  cd
+  143  cd ~/repos/c0621-code-solutions/
+  144  code .
+  145  git status
+  146  git add --all
+  147  git status
+  148  git commit -m "modified quiz-questions.txt"
+  149  git push origin master
+  150  cd ~/repos/c0621-code-solutions/
+  151  git checkout master
+  152  git pull origin master
+  153  git branch command-line-basics
+  154  git switch command-line-basics
+  155  pwd
+  156  git status
+  157  pwd
+  158  cd command-line-basics/
+  159  pwd
+  160  man man
+  161  man cat
+  162  cat [laziness.txt]
+  163  cat laziness.txt
+  164  cat impatience.txt
+  165  cat hubris.txt
+  166  cat laziness.txt impatience.txt hubris.txt
+  167  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  168  cat three-virtues.txt
+  169  man ls
+  170  ls
+  171  ls -a
+  172  ls -F
+  173  ls lfz-staff
+  174  ls lfz-staff -a
+  175  ls lfz-staff -F
+  176  ls -aF lfz-staff > lfz-staff/contents.txt
+  177  man pwd
+  178  pwd
+  179  pwd i-was-here.txt
+  180  ls
+  181  pwd > i-was-here.txt
+  182  ls
+  183  cat i-was-here.txt
+  184  man echo
+  185  echo 'Hello, World!'
+  186  echo 'Hello, World!' > hello.txt
+  187  ls
+  188  cat hello.txt
+  189  man touch
+  190  touch tag-youre-it.txt
+  191  touch > snoot/boop.txt
+  192  snoot/ touch > boop.txt
+  193  man touch
+  194  touch boop.txt > /snoot
+  195  touch > snoot/boop.txt
+  196  ls /snoot
+  197  ls snoot
+  198  man mkdir
+  199  mkdir parent
+  200  ls
+  201  mkdir -p child
+  202  mkdir -p parent child
+  203  ls
+  204  mkdir -p parent
+  205  mkdir -p parent child
+  206  mkdir man
+  207  man mkdir
+  208  mkdir child -p parent
+  209  man mkdir
+  210  mkdir -p parent/child/grandchild
+  211  mkdir parent/child/grandchild
+  212  mkdir -p parent/child/grandchild
+  213  touch > parent/child/grandchild/.gitkeep
+  214  ls -a
+  215  ls parent/child/grandchild
+  216  ls -a parent/child/grandchild
+  217  man mv
+  218  mv pokiemans pokemon
+  219  man rm
+  220  rm lol.txt
+  221  ls
+  222  rm -r kill-me
+  223  ls
+  224  man cp
+  225  cp and-then.txt no-and-then.txt
+  226  ls
+  227  cat and-then.txt no-and-then.txt
+  228  man history
+  229  history
+  230  history > command-history.txt
