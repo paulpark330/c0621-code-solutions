@@ -14,5 +14,4 @@ What is the syntax for Array destructuring?
 -Equal sign and object name
 
 How can you tell the difference between destructuring and creating Object/Array literals?
--When creating object/array literals, we assign the object to the variable
--When destructuring, we assign the object to the variable
+-When destructuring, the curly brace or the square brackets comes before the assignment operator
