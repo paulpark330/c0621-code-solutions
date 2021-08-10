@@ -1,0 +1,10 @@
+What is the process object in a Node.js program?
+-global that provides information about, and control over, the currnet Node.js process
+
+
+How do you access the process object in a Node.js program?
+-process.argv
+
+
+What is the data type of process.argv in Node.js?
+-array
