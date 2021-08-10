@@ -1,0 +1,15 @@
+What is a JavaScript module?
+-Each js file is treated as a module
+
+
+What values are passed into a Node.js module's local scope?
+-__dirname
+-__filename
+-exports
+-module
+-require()
+
+
+Give two examples of truly global variables in a Node.js program.
+-process
+-global
