@@ -1,0 +1,11 @@
+What is the syntax for defining an arrow function?
+-Use the (...args) => expression; to define an arrow function
+-Use the (...args) => { statements } to define an arrow function that has multiple statements
+
+
+When an arrow function's body is left without curly braces, what changes in its functionality?
+-If there are no curly braces, the expression is automatically returned from the arrow function
+
+
+How is the value of this determined within an arrow function?
+-An arrow function captures the this value of the enclosing context instead of creating its own this context
