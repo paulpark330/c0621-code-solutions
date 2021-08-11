@@ -1,0 +1,6 @@
+What is the JavaScript Event Loop?
+-If the stack is empty, it takes the first item on the queue and pushes to the stack
+
+
+What is different between "blocking" and "non-blocking" with respect to how code is executed?
+-Blocking refers to operations that block further execution until that operation finishes while non-blocking refers to code that doesn’t block execution
