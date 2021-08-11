@@ -1,0 +1,14 @@
+What is a directory?
+-Location for storing files on computers
+
+
+What is a relative file path?
+-A relative path needs to be combined with another path in order to access a file
+
+
+What is an absolute file path?
+-An absolute path always contains the root element and the complete directory list required to locate the file
+
+
+What module does Node.js include for manipulating the file system?
+-fs
