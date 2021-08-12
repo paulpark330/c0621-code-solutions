@@ -1,2 +1,6 @@
 What method is available in the Node.js fs module for writing data to a file?
+-fs.writeFile
+
+
 Are file operations using the fs module synchronous or asynchronous?
+-Both asynchronous and synchronous
