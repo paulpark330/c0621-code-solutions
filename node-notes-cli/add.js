@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-module.exports = (notebook, note) => {
-  notebook.notes[notebook.nextId] = note;
+module.exports = (notebook, input) => {
+  notebook.notes[notebook.nextId] = input;
   notebook.nextId++;
   const notebookJSON = JSON.stringify(notebook, null, 2);
   fs.writeFile('./data.json', notebookJSON, 'utf8', err => {
