@@ -1,14 +1,15 @@
 const add = require('./add');
 const read = require('./read');
+const notebook = require('./data.json');
 
 const command = process.argv[2];
 
 const note = process.argv[3];
 
 if (command === 'read') {
-  read();
+  read(notebook);
 }
 
 if (command === 'add') {
-  add(note);
+  add(notebook, note);
 }
