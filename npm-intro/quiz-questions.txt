@@ -18,4 +18,5 @@ What is a dependency and how to you add one to a package?
 
 
 What happens when you add a dependency to a package with npm?
--Dependency specifies the package your project depends one
+-Updates package.json
+-Downloads the package from npm registry
