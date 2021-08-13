@@ -14,8 +14,8 @@
 //    Return true
 
 function isAnagram(firstString, secondString) {
-  var orderFirstString = firstString.toLowerCase().split("").sort().join("").replaceAll(" ", "");
-  var orderSecondString = secondString.toLowerCase().split("").sort().join("").replaceAll(" ", "");
+  var orderFirstString = firstString.toLowerCase().split('').sort().join('').replaceAll(' ', '');
+  var orderSecondString = secondString.toLowerCase().split('').sort().join('').replaceAll(' ', '');
   if (orderSecondString === orderFirstString) {
     return true;
   } else {

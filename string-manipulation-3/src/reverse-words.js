@@ -18,20 +18,20 @@
 //  Give back completed list
 
 function reverseWords(string) {
-  var returnWords = "";
-  var currentWord = "";
-  var reversedWord = "";
+  var returnWords = '';
+  var currentWord = '';
+  var reversedWord = '';
   function reverseWord() {
     for (let i = currentWord.length - 1; i >= 0; i--) {
       reversedWord += currentWord[i];
     }
   }
   for (let i = 0; i < string.length; i++) {
-    if (string[i] === " ") {
+    if (string[i] === ' ') {
       reverseWord();
-      returnWords += reversedWord + " ";
-      reversedWord = "";
-      currentWord = "";
+      returnWords += reversedWord + ' ';
+      reversedWord = '';
+      currentWord = '';
     } else {
       currentWord += string[i];
     }

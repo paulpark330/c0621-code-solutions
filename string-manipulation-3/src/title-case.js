@@ -1,6 +1,5 @@
 /* exported titleCase */
 
-
 //  PSEUDOCODE
 
 //  First character of every word except conjuctions
@@ -30,31 +29,31 @@ function titleCase(title) {
     on: true,
     per: true,
     to: true
-  }
+  };
 
-  for (i = 0; i < words.length; i++) {
-    var word = words[i]
+  for (let i = 0; i < words.length; i++) {
+    var word = words[i];
     if (word[word.length - 1] === ':') {
       var capWord = words[i + 1][0].toUpperCase() + words[i + 1].slice(1);
       words[i + 1] = capWord;
     }
     if (i === 0 || !minorWords[word]) {
-      var capWord = word[0].toUpperCase() + word.slice(1);
+      capWord = word[0].toUpperCase() + word.slice(1);
       words[i] = capWord;
+    }
   }
-}
 
-var finalString = words.join(' ');
-var hyphenString = '';
+  var finalString = words.join(' ');
+  var hyphenString = '';
 
-for (i = 0; i < finalString.length; i++) {
-  if (finalString[i] === "-") {
-    hyphenString += finalString[i];
-    hyphenString += finalString[i + 1].toUpperCase();
-    i++;
-  } else {
-    hyphenString += finalString[i];
+  for (let i = 0; i < finalString.length; i++) {
+    if (finalString[i] === '-') {
+      hyphenString += finalString[i];
+      hyphenString += finalString[i + 1].toUpperCase();
+      i++;
+    } else {
+      hyphenString += finalString[i];
+    }
   }
-}
-return hyphenString.replace('Javascript', 'JavaScript').replace('Api', 'API');
+  return hyphenString.replace('Javascript', 'JavaScript').replace('Api', 'API');
 }
