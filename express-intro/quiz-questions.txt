@@ -1,0 +1,5 @@
+How do you add express to your package dependencies?
+-npm install express
+
+What Express application method starts the server and binds it to a network PORT?
+-app.listen()
