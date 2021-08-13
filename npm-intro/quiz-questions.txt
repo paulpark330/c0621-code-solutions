@@ -1,0 +1,21 @@
+What is NPM?
+-Software registry consisting website, CLI, and registry
+
+
+What is a package?
+-Reusable bits of code
+-File or directory that is described by a package.json File
+
+
+How can you create a package.json with npm?
+-Navigate to the root directory of your package
+-npm init
+
+
+What is a dependency and how to you add one to a package?
+-Specified in a simple object that maps a package name to a version range
+-npm install <package-name> [--save-prod]
+
+
+What happens when you add a dependency to a package with npm?
+-Dependency specifies the package your project depends one
