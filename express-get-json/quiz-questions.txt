@@ -1,0 +1,2 @@
+What is the appropriate Content-Type header for HTTP messages that contain JSON in their bodies?
+-application/json; charset=utf-8
