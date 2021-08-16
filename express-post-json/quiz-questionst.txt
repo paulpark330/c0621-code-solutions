@@ -1,1 +1,2 @@
 What does the express.json() middleware do and when would you need it?
+-Parses incoming requests with JSON payloads and is based on body-parser
