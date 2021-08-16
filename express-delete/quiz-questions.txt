@@ -1,0 +1,2 @@
+What is the significance of an HTTP request's method?
+-determines what action SHOULD be done with the given resource but programmer can make it do whatever
