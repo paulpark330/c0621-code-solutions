@@ -1,0 +1,1 @@
+What does the express.json() middleware do and when would you need it?
