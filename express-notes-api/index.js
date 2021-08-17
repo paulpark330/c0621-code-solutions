@@ -4,7 +4,6 @@ const notebookData = require('./data.json');
 const fs = require('fs');
 
 const notebook = notebookData.notes;
-const noteId = notebookData.nextId;
 
 app.use(express.json());
 
@@ -35,10 +34,10 @@ app.post('/api/notes', (req, res) => {
     res.status(400).send(error);
   } else {
     const newNote = {
-      id: noteId,
+      id: notebookData.nextId,
       content: req.body.content
     };
-    notebookData.notes[noteId] = newNote;
+    notebookData.notes[notebookData.nextId] = newNote;
     notebookData.nextId++;
     const notebookJSON = JSON.stringify(notebookData, null, 2);
     fs.writeFile('data.json', notebookJSON, 'utf8', err => {
@@ -49,11 +48,6 @@ app.post('/api/notes', (req, res) => {
     });
     res.status(201).send(newNote);
   }
-});
-
-app.listen(3000, () => {
-  // eslint-disable-next-line no-console
-  console.log('Express server listening on port 3000');
 });
 
 app.delete('/api/notes/:id', (req, res) => {
@@ -103,4 +97,9 @@ app.put('/api/notes/:id', (req, res) => {
     });
     res.status(200).json(newNote);
   }
+});
+
+app.listen(3000, () => {
+  // eslint-disable-next-line no-console
+  console.log('Express server listening on port 3000');
 });

@@ -1,5 +1,5 @@
 {
-  "nextId": 12,
+  "nextId": 14,
   "notes": {
     "2": {
       "id": 2,
@@ -20,6 +20,14 @@
     "9": {
       "id": 9,
       "content": "Go home and eat some sushi"
+    },
+    "12": {
+      "id": 12,
+      "content": "Today is very hot"
+    },
+    "13": {
+      "id": 13,
+      "content": "Today is very cold"
     }
   }
 }
