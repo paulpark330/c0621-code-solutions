@@ -1,0 +1,7 @@
+How do you update rows in a database table?
+-update keyword and set keyword
+-include a where clause
+
+
+Why is it important to include a where clause in your update statements?
+-If a where clause is missing, it would update every row in the table
