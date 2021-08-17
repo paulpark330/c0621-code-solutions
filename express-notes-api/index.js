@@ -25,7 +25,7 @@ app.get('/api/notes/:id', (req, res) => {
     const error = { error: `cannot find note with ${id}` };
     res.status(404).send(error);
   } else {
-    res.status(200).send(notebook[id]);
+    res.status(200).json(notebook[id]);
   }
 });
 
@@ -41,8 +41,11 @@ app.post('/api/notes', (req, res) => {
     notebookData.notes[noteId] = newNote;
     notebookData.nextId++;
     const notebookJSON = JSON.stringify(notebookData, null, 2);
-    fs.writeFile('data.json', notebookJSON, 'utf8', err => {
-      if (err) throw err;
+    fs.writeFile('derp/data.json', notebookJSON, 'utf8', err => {
+      if (err) {
+        const error = { error: 'An unexpected error occurred' };
+        res.status(500).send(error);
+      }
     });
     res.status(201).send(newNote);
   }
@@ -65,7 +68,10 @@ app.delete('/api/notes/:id', (req, res) => {
     delete notebookData.notes[id];
     const notebookJSON = JSON.stringify(notebookData, null, 2);
     fs.writeFile('data.json', notebookJSON, 'utf8', err => {
-      if (err) throw err;
+      if (err) {
+        const error = { error: 'An unexpected error occurred' };
+        res.status(500).send(error);
+      }
     });
     res.status(204);
   }
@@ -83,11 +89,18 @@ app.put('/api/notes/:id', (req, res) => {
     const error = { error: `cannot find note with ${id}` };
     res.status(404).send(error);
   } else {
-    notebookData.notes[id].content = req.body.content;
+    const newNote = {
+      id: noteId,
+      content: req.body.content
+    };
+    notebookData.notes[noteId] = newNote;
     const notebookJSON = JSON.stringify(notebookData, null, 2);
     fs.writeFile('data.json', notebookJSON, 'utf8', err => {
-      if (err) throw err;
+      if (err) {
+        const error = { error: 'An unexpected error occurred' };
+        res.status(500).send(error);
+      }
     });
-    res.status(204);
+    res.status(200).json(newNote);
   }
 });
