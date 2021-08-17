@@ -41,7 +41,7 @@ app.post('/api/notes', (req, res) => {
     notebookData.notes[noteId] = newNote;
     notebookData.nextId++;
     const notebookJSON = JSON.stringify(notebookData, null, 2);
-    fs.writeFile('derp/data.json', notebookJSON, 'utf8', err => {
+    fs.writeFile('data.json', notebookJSON, 'utf8', err => {
       if (err) {
         const error = { error: 'An unexpected error occurred' };
         res.status(500).send(error);
