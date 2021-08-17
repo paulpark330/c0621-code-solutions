@@ -70,3 +70,24 @@ app.delete('/api/notes/:id', (req, res) => {
     res.status(204);
   }
 });
+
+app.put('/api/notes/:id', (req, res) => {
+  const id = req.params.id;
+  if (id < 1 || isNaN(id)) {
+    const error = { error: 'id must be a positive integer' };
+    res.status(400).send(error);
+  } else if (!req.body.content) {
+    const error = { error: 'content is a required field' };
+    res.status(400).send(error);
+  } else if (!notebook[id]) {
+    const error = { error: `cannot find note with ${id}` };
+    res.status(404).send(error);
+  } else {
+    notebookData.notes[id].content = req.body.content;
+    const notebookJSON = JSON.stringify(notebookData, null, 2);
+    fs.writeFile('data.json', notebookJSON, 'utf8', err => {
+      if (err) throw err;
+    });
+    res.status(204);
+  }
+});
