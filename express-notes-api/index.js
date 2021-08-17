@@ -52,3 +52,21 @@ app.listen(3000, () => {
   // eslint-disable-next-line no-console
   console.log('Express server listening on port 3000');
 });
+
+app.delete('/api/notes/:id', (req, res) => {
+  const id = req.params.id;
+  if (id < 1 || isNaN(id)) {
+    const error = { error: 'id must be a positive integer' };
+    res.status(400).send(error);
+  } else if (!notebook[id]) {
+    const error = { error: `cannot find note with ${id}` };
+    res.status(404).send(error);
+  } else {
+    delete notebookData.notes[id];
+    const notebookJSON = JSON.stringify(notebookData, null, 2);
+    fs.writeFile('data.json', notebookJSON, 'utf8', err => {
+      if (err) throw err;
+    });
+    res.status(204);
+  }
+});
