@@ -1,0 +1,11 @@
+What is a database schema?
+-Collection of tables
+
+
+What is a table?
+-Data stored in relations in relational database
+-List of rows each having the same set of attributes
+
+
+What is a row?
+-A row represents a complete record of a specific data
