@@ -90,10 +90,10 @@ app.put('/api/notes/:id', (req, res) => {
     res.status(404).send(error);
   } else {
     const newNote = {
-      id: noteId,
+      id: parseInt(id),
       content: req.body.content
     };
-    notebookData.notes[noteId] = newNote;
+    notebookData.notes[newNote.id] = newNote;
     const notebookJSON = JSON.stringify(notebookData, null, 2);
     fs.writeFile('data.json', notebookJSON, 'utf8', err => {
       if (err) {
