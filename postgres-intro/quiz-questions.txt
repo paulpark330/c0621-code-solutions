@@ -1,0 +1,14 @@
+What is PostgreSQL and what are some alternative relational databases?
+-Relational Database Management System
+-MySQL, SQLite
+
+
+What are some advantages of learning a relational database?
+-Support good guarantees about data integrity
+-Store and modify data in a way that makes data corruption as unlikely as possible
+-Most widely used kind of database
+
+
+What is one way to see if PostgreSQL is running?
+-Running the top command and checking to see postgres processes
+-sudo service postgresql status
