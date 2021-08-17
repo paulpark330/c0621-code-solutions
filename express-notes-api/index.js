@@ -45,8 +45,8 @@ app.post('/api/notes', (req, res) => {
         const error = { error: 'An unexpected error occurred' };
         res.status(500).send(error);
       }
+      res.status(201).send(newNote);
     });
-    res.status(201).send(newNote);
   }
 });
 
@@ -66,8 +66,8 @@ app.delete('/api/notes/:id', (req, res) => {
         const error = { error: 'An unexpected error occurred' };
         res.status(500).send(error);
       }
+      res.status(204);
     });
-    res.status(204);
   }
 });
 
@@ -94,8 +94,8 @@ app.put('/api/notes/:id', (req, res) => {
         const error = { error: 'An unexpected error occurred' };
         res.status(500).send(error);
       }
+      res.status(200).json(newNote);
     });
-    res.status(200).json(newNote);
   }
 });
 
