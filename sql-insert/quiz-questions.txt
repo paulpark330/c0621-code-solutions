@@ -1,0 +1,14 @@
+How do you add a row to a SQL table?
+-insert keyword
+
+
+What is a tuple?
+-One row
+
+
+How do you add multiple rows to a SQL table at once?
+-Specifying more than one tuple of values, separated by commas
+
+
+How do you get back the row being inserted into a table without a separate select statement?
+-return *
