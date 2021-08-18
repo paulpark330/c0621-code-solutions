@@ -1,0 +1,6 @@
+How do you delete rows from a database table?
+-delete from keyword
+-where clause
+
+How do you accidentally delete all rows from a table?
+-Not including the where clause
