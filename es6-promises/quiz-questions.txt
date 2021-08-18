@@ -1,0 +1,12 @@
+What are the three states a Promise can be in?
+-pending
+-fulfilled
+-rejected
+
+
+How do you handle the fulfillment of a Promise?
+-.then()
+
+How do you handle the rejection of a Promise?
+-.then()
+-.catch()
