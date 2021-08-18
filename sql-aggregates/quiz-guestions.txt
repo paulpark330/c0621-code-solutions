@@ -1,0 +1,8 @@
+What are some examples of aggregate functions?
+-max()
+-avg()
+-sum()
+
+
+What is the purpose of a group by clause?
+-To separate rows into groups and perform aggregate functions on those groups
