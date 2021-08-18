@@ -1,0 +1,10 @@
+What is a foreign key?
+-An attribute in a table that refers to the primary key of another table
+
+
+How do you join two SQL tables?
+-join clause
+
+
+How do you temporarily rename columns or tables in a SQL statement?
+-Alias column names by using as keyword
