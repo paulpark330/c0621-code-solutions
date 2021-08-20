@@ -1,0 +1,1 @@
+What is Array.prototype.filter useful for?
