@@ -1,0 +1,2 @@
+What is Array.prototype.filter useful for?
+-For creating a new array with all elements that pass the test implemented by the provided function
