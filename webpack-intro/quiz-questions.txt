@@ -1,0 +1,14 @@
+What is Webpack?
+-Static module bundler for modern JavaScript applications
+
+
+How do you add a devDependency to a package?
+-npm install <package-name> --save-dev
+
+
+What is an NPM script?
+-Looks for a webpack installation in your local node_modules directory
+
+
+How do you execute Webpack with npm run?
+-npm run build
