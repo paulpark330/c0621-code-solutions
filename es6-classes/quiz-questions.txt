@@ -1,0 +1,16 @@
+What is "syntactic sugar"?
+-In computer science, syntactic sugar is syntax within a programming language that is designed to make things easier to read or to express.
+
+
+What is the typeof an ES6 class?
+-Function
+
+
+Describe ES6 class syntax.
+-class keyword, name of class
+-Constructor keyword with argument followed by code block where properties of an instance are initialized
+-function definition without the function keyword
+
+
+What is "refactoring"?
+-Process of restructuring existing code without changing its external behavior
