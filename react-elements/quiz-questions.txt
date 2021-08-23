@@ -1,0 +1,3 @@
+What is React?
+What is a React element?
+How do you mount a React element to the DOM?
