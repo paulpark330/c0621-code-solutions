@@ -1,3 +1,10 @@
 What is React?
+-React is a JavaScript library for building user interfaces
+
+
 What is a React element?
+-An element is a plain object describing a component instance or DOM node and its desired properties
+
+
 How do you mount a React element to the DOM?
+-ReactDOM.render()
