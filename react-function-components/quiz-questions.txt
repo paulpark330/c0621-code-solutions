@@ -1,7 +1,10 @@
 What is a React component?
+-Similar to JavaScript functions but components take arbitary inputs (props) and return a React element
 
 
 How do you define a function component in React?
+-Same as JavaScript function definition
 
 
 How do you mount a component to the DOM?
+-ReactDOM.render()
