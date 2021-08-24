@@ -1,0 +1,6 @@
+How do you create "class" component in React?
+-class <className> extends React.Component
+
+
+How do you access props in a class component?
+-this.props
