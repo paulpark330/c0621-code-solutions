@@ -1,0 +1,17 @@
+What is Babel?
+-Tool that converts ECMAScript2015+ to older compatible version of JavaScript
+
+
+What is a Plug-in?
+-Software that adds a specific feature to an existing computer program
+
+
+What is a Webpack loader?
+-Transformations that are applied to the source code of a module
+-Transforms files from a different language to JavaScript
+
+
+How can you make Babel and Webpack work together?
+-By using the babel-loader
+-Babel converts the ES2015+ to older version of JavaScript
+-Webpack bundles the transformed module
