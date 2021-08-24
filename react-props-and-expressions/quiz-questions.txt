@@ -1,0 +1,10 @@
+What are props in React?
+-An object with JSX attributes and children
+
+
+How do you pass props to a component?
+-User-defined components
+-React element with react attributes
+
+How do you write JavaScript expressions in JSX?
+-Wrap it in curly braces
