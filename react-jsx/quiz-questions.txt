@@ -1,0 +1,12 @@
+What is JSX?
+-Syntax extension to JavaScript
+-Use with React to describe what the UI should look like
+-JSX combines markup and logic in a single file
+
+
+Why must the React object be imported when authoring JSX in a module?
+-JSX compiles into calls to React.createElement, the React library must be in scope
+
+
+How can you make Webpack and Babel work together to convert JSX into valid JavaScript?
+-Using babel-loader
