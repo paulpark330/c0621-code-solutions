@@ -1,0 +1,7 @@
+What is a React component?
+
+
+How do you define a function component in React?
+
+
+How do you mount a component to the DOM?
