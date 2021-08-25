@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class CustomButtom extends React.Component {
+class CustomButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isClicked: false };
@@ -9,16 +9,26 @@ class CustomButtom extends React.Component {
   }
 
   handleClick() {
-    this.setState({ isClicked: true });
+    this.setState(prevState => ({
+      isClicked: !prevState.isClicked
+    }));
   }
 
   render() {
     return (
       <button onClick={this.handleClick}>
-        {this.state.isClicked ? 'Thanks!' : 'Click Me!'}
+        {this.state.isClicked ? 'Thanks!' : this.props.text}
       </button>
     );
   }
 }
 
-ReactDOM.render(<CustomButtom />, document.querySelector('#root'));
+const element = (
+  <div>
+    <CustomButton text="Please"/>
+    <CustomButton text="Don't"/>
+    <CustomButton text="Click"/>
+  </div>
+);
+
+ReactDOM.render(element, document.querySelector('#root'));
