@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 class CustomButtom extends React.Component {
   constructor(props) {
     super(props);
-    this.handleClick = this.handleClick.bind(this);
     this.state = { isClicked: false };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
@@ -13,14 +13,11 @@ class CustomButtom extends React.Component {
   }
 
   render() {
-    const isClicked = this.state.isClicked;
-    let button;
-    if (isClicked) {
-      button = <button onClick={this.handleClick}>Thanks!</button>;
-    } else {
-      button = <button onClick={this.handleClick}>Click Me!</button>;
-    }
-    return button;
+    return (
+      <button onClick={this.handleClick}>
+        {this.state.isClicked ? 'Thanks!' : 'Click Me!'}
+      </button>
+    );
   }
 }
 
