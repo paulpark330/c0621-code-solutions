@@ -1,2 +1,6 @@
 What is the purpose of state in React?
+-State is an object that determines how that component renders and behaves
+
+
 How to you pass an event handler to a React element?
+-By passing the event handler as a prop
