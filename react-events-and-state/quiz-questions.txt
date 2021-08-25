@@ -1,0 +1,2 @@
+What is the purpose of state in React?
+How to you pass an event handler to a React element?
