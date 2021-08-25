@@ -1,0 +1,39 @@
+.hot-button {
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border: 0.2rem solid black;
+  background-color: black;
+  box-shadow: 5px 5px 5px black;
+}
+
+.hot-button:active {
+  transform: translateY(4px);
+}
+
+.three {
+  background-color: #351c75;
+}
+
+.six {
+  background-color: #674ea7;
+}
+
+.nine {
+  background-color: #e06666;
+}
+
+.twelve {
+  background-color: #f6b26b;
+  color: black;
+}
+
+.fifteen {
+  background-color: #ff0;
+  color: black;
+}
+
+.eighteen {
+  background-color: #fff;
+  color: black;
+}
