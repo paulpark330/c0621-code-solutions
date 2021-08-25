@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.toggle-button-off {
+  padding: 1rem 2rem;
+  border: 0.2rem solid black;
+  height: 1rem;
+  border-radius: 30px;
+  background-color: #e2e2e2;
+  position: absolute;
+}
+
+.switch-off {
+  position: relative;
+  left: 0;
+  height: 2rem;
+  width: 2rem;
+  border: 0.2rem solid black;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.toggle-button-on {
+  padding: 1rem 2rem;
+  border: 0.2rem solid black;
+  height: 1rem;
+  border-radius: 30px;
+  background-color: #6aa84f;
+  position: absolute;
+}
+
+.switch-on {
+  position: relative;
+  left: 33px;
+  height: 2rem;
+  width: 2rem;
+  border: 0.2rem solid black;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.toggle-status {
+  font-size: 2rem;
+  margin: 3rem;
+}
