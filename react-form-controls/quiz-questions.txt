@@ -1,2 +1,6 @@
 What are controlled components?
+-JSX elements with value prop and onChange listener
+
+
 What two props must you pass to an input for it to be "controlled"?
+-Value prop and onChange listener
