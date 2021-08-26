@@ -1,0 +1,6 @@
+What Array method is commonly used to create a list of React elements?
+-map()
+
+
+What is the best value to use as a "key" prop when rendering lists?
+-IDs from data as keys
