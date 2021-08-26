@@ -1,0 +1,2 @@
+What are controlled components?
+What two props must you pass to an input for it to be "controlled"?
