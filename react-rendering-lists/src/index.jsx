@@ -10,16 +10,17 @@ const pokedex = [
 ];
 
 function PokemonList(props) {
-  const pokemons = props.pokemons;
-  const listItems = pokemons.map(pokemon =>
-    <li key={pokemon.number}>{pokemon.name}</li>
-  );
+  const pokedex = props.pokedex;
   return (
-    <ul>{listItems}</ul>
+    <ul>
+      {pokedex.map(pokemon => (
+        <li key={pokemon.number}>{pokemon.name}</li>
+      ))}
+    </ul>
   );
 }
 
 ReactDOM.render(
-  <PokemonList pokemons={pokedex} />,
+  <PokemonList pokedex={pokedex} />,
   document.querySelector('#root')
 );
