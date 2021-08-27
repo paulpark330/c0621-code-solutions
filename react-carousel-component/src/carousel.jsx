@@ -57,8 +57,8 @@ export default class Carousel extends React.Component {
           <div className="progress-dot-container">
             {imageList.map(image => {
               return (this.state.view === image.id
-                ? (<i key={image.id} className="fas fa-circle" onClick={this.moveId}></i>)
-                : (<i key={image.id} className="far fa-circle" onClick={this.moveId}></i>)
+                ? (<i id={image.id} key={image.id} className="fas fa-circle" onClick={this.moveId}></i>)
+                : (<i id={image.id} key={image.id} className="far fa-circle" onClick={this.moveId}></i>)
               );
             })}
           </div>
