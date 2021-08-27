@@ -1,0 +1,28 @@
+* {
+  font-family: monospace;
+}
+
+.accordion {
+  width: 400px;
+}
+
+.subject {
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid black;
+  margin: 0.2rem;
+  padding: 0.4rem;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.details {
+  font-size: 1rem;
+  border: 2px solid black;
+  margin: 0.2rem;
+  padding: 0.4rem;
+}
+
+.hidden {
+  display: none;
+}
