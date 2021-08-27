@@ -1,0 +1,28 @@
+* {
+  font-family: monospace;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.password-input {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.fa-times {
+  margin-left: 1rem;
+  color: red;
+}
+
+.fa-check {
+  margin-left: 1rem;
+  color: green;
+}
