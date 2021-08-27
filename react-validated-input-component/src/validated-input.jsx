@@ -13,19 +13,27 @@ export default class ValidatedInput extends React.Component {
 
   handleChange(e) {
     const password = event.target.value;
-    let isValid = false;
-    let errorMessage = null;
-    if (password === '') {
-      isValid = false;
-      errorMessage = 'A password is required.';
+    const newState = {value: password}
+    if (password === "") {
+      newState.validInput = false;
+      newState.errorMessage = "A password is required.";
     } else if (password.length < 8) {
-      isValid = false;
-      errorMessage = 'Your password is too short.';
-    } else if (password.length >= 8) {
-      isValid = true;
-      errorMessage = null;
+      newState.validInput = false;
+      newState.errorMessage = "Minumum 8 digits.";
+    } else if (!password.match(/[0-9]/)) {
+      newState.validInput = false;
+      newState.errorMessage = "At least 1 number.";
+    } else if (!password.match(/[A-Z]/)) {
+      newState.validInput = false;
+      newState.errorMessage = "At least 1 uppercase letter.";
+    } else if (!password.match(/[!@#$%^&*()_+]/)) {
+      newState.validInput = false;
+      newState.errorMessage = "At least 1 special character.";
+    } else {
+      newState.validInput = true;
+      newState.errorMessage = "";
     }
-    this.setState({ value: event.target.value, validInput: isValid, errorMessage: errorMessage });
+    this.setState(newState);
   }
 
   render() {
@@ -41,18 +49,18 @@ export default class ValidatedInput extends React.Component {
       <div>
         <h1>Password</h1>
         <div className="container">
-          <input
-            className="password-input"
-            type="password"
-            value={this.state.value}
-            onChange={this.handleChange}
-          />
+          <form>
+            <input
+              className="password-input"
+              type="password"
+              value={this.state.value}
+              onChange={this.handleChange}
+            />
+          </form>
           <i className={icon}></i>
         </div>
         <div className="error-message">
-          <p>
-            {errorMessage}
-          </p>
+          <p>{errorMessage}</p>
         </div>
       </div>
     );
