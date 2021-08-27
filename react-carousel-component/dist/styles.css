@@ -1,0 +1,38 @@
+.carousel {
+  margin: 6rem auto;
+  border: 2px solid black;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 80%;
+  margin: 1rem;
+  user-select: none;
+}
+
+.fas {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.progress-dot-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px
+}
+
+.far {
+  margin: 1rem;
+  cursor: pointer;
+}
