@@ -1,5 +1,5 @@
 What does express.static() return?
--Middleware unction
+-Middleware function
 
 
 What is the local __dirname variable in a Node.js module?
