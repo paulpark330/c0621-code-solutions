@@ -9,4 +9,4 @@ Name three React.Component lifecycle methods.
 
 
 How do you pass data to a child component?
--this.props.children
+-props
