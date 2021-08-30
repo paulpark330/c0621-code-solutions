@@ -1,0 +1,10 @@
+What does express.static() return?
+-Function
+
+
+What is the local __dirname variable in a Node.js module?
+-The directory name of the current module
+
+
+What does the join() method of Node's path module do?
+-The path.join() method joins all given path segments together using the platform-specific separator as a delimiter, then normalizes the resulting path
