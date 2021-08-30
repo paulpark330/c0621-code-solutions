@@ -1,0 +1,10 @@
+What does fetch() return?
+-A Promise that resolves to a Response object
+
+
+What is the default request method used by fetch()?
+-GET
+
+
+How do you specify the request method (GET, POST, etc.) when calling fetch?
+-The fetch() method can optionally accept a second parameter, an init object that allows you to control the request method
