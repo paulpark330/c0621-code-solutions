@@ -1,0 +1,12 @@
+When does React call a component's componentDidMount method?
+-Invoked immediately after a component is mounted
+
+
+Name three React.Component lifecycle methods.
+-componentDidMount()
+-componentDidUpdate()
+-componentWillUnmount()
+
+
+How do you pass data to a child component?
+-props
