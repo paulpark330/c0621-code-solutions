@@ -1,0 +1,96 @@
+User can sign up
+
+//Client
+When user clicks on the register button, handleSubmit method of the AuthForm class is called.
+Value of action was passed down to the AuthForm class through props in the AuthPage class
+The path is determined by the action variable
+React, the client makes a post request to the server with the request body { username, password }
+
+//Server
+Server receives the request and after and destructures username and password property of req.body
+Server will throw an error if there is an issue with username and password
+Argon2 will created a hashedPassword and server will run a sql query to the database
+
+//Database
+The database will insert username and hashedPassword in the the users table and return userId, username, and createdAt
+
+//Server
+The promised returned from the database is destructured to the variable user
+user gets parsed to a JSON string and sent back to the client along with status code 201
+
+//Client
+React receives the reponse from server and the JSON string is parsed to a JavaScript object
+Since the value of the variable action is 'sign-up', 'sign-in' is assigned to the hash propery of the global window.location object
+The window object that was listening for a hashchange event, calls the callback function and setState() gets called
+setState() calls the render() and re-renders the App component
+React updates the DOM
+
+
+
+
+User can sign in
+
+//Client
+When user clicks on the Log In button, handleSubmit method of the AuthForm class is called.
+Value of action was passed down to the AuthForm class through props in the AuthPage class
+The path is determined by the action variable
+React, the client makes a post request to the server with the request body { username, password }
+
+//Server
+Server receives the request and after and destructures username and password property of req.body
+Server will throw an error if there is an issue with username and password
+Server makes a request to the database with a sql query
+
+//Database
+The database will select and return userId, hashedPassword, and from users table where the column username is equal to the value of the variable usersname
+
+//Server
+The promised returned from the database is destructured to the variable user
+Server will throw an error if user is falsy
+UserId and hashedPassword is destructured from users and assigned as const variables
+Argon2 will verify and check if hashedPassword from the database and password from the client is matching
+Server will throw an eroor if the two passwords do not match
+If the two passwords do match, server creates payload and token variables and sends a JSON string consiting payload and token
+
+//Client
+React receives the reponse from server and the JSON string is parsed to a JavaScript object
+If user and token are truthy, the onSignIn method is called with the result from the server as an argument
+The value of onSignIn prop is handleSignIn and handleSignIn was destructured from this.context
+Context of AuthPage class was passed globally from AppContext which was assigned to the value of the value prop for the AppContext.Provider element
+handleSignin is called with called with the result from the server
+user and token is destructured from the result and assigned as variables
+setItem method is called with the token as the second argument and local storage receives the token
+setState method is called and updates the state with the value of the variable user
+setState() calls the render() and re-renders the App component
+React updates the DOM
+
+
+
+
+User can stay signed in
+
+//Client
+Whenever the user refreshes the page, ReactDOM.render() gets called and componentDidMount gets called
+The getItem method of the global window.localStorage object gets called with the string 'react-context-jwt'
+The return of that method, which is a JSON string, is assigned to the token variable
+If the token variable is truthy, it gets passed as an argument for the decodeToken function
+The decodeToken function decodes the token and parses it to a JavaScript object which is assigned to the user variable
+If the token variable is falsly, null will be assigned to the user variable
+setState method is called and updates the user property with the variable user and updates the isAuthorizing property with the value false
+setState() calls the render() and re-renders the App component
+React updates the DOM
+
+
+
+
+User can sign out
+
+//Client
+When user clicks on the Sign out button, the onClick event of the button element in the Navbar class is fired and calls the handleSignOut method
+Context of Navbar class was passed globally from AppContext which was assigned to the value of the value prop for the AppContext.Provider element
+handleSignOut method of the App component is called
+removeItem method of the global window.localStorage object is called and removes the token from local storage
+setState method is called and updates the user property with the value null
+Since this.state.user is null, the value of the user property of contextValue is null and the global value of user is now null
+setState() calls the render() and re-renders the App component
+React updates the DOM
