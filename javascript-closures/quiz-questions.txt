@@ -1,0 +1,6 @@
+What must the return value of myFunction be if the following expression is possible?
+myFunction()();
+What does this code do?
+const wrap = value => () => value;
+In JavaScript, when is a function's scope determined; when it is called or when it is defined?
+What allows JavaScript functions to "remember" values from their surroundings?
