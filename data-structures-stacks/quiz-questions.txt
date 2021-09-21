@@ -1,0 +1,10 @@
+What does the acronym LIFO mean?
+-Last in first out
+
+
+What methods are available on a Stack data structure?
+-push()
+-pop()
+
+
+What must you do to access the value at an arbitrary point in a stack (not just the "top")?
