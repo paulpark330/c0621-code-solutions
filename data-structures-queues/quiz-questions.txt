@@ -1,0 +1,10 @@
+What does the acronym FIFO mean?
+-First in first out
+
+
+What methods are available on a Queue data structure?
+-enqueue(value), dequeue()
+
+
+What must you do to access the value at an arbitrary point in a queue (not just the "front")?
+-dequeue and enqueue until you reach the value
