@@ -1,0 +1,6 @@
+How are linked lists different from an array?
+-Linked lists are sequential access (like a queue), not random access (like an array).
+
+
+How would you access an arbitrary node in a linked list (not just the "head")?
+-In order to go to a specific place in the list, you have to start at the beginning, then jump from node to node until you get there.
